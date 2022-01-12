@@ -1,0 +1,8 @@
+prefix=/home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/install
+
+Name: handeye_calib_camodocal
+Description: Description of handeye_calib_camodocal
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: eigen roscpp tf trajectory_msgs

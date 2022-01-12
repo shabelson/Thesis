@@ -1,0 +1,6 @@
+devel_space: /home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/devel
+install: false
+install_space: /home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/install
+profile: default
+source_space: /home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/src
+workspace: /home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable
