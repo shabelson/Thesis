@@ -1,0 +1,1 @@
+/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/.private/industrial_utils/share/industrial_utils/cmake/industrial_utilsConfig.cmake

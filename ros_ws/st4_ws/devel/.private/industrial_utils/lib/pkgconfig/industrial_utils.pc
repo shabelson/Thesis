@@ -1,0 +1,8 @@
+prefix=/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/.private/industrial_utils
+
+Name: industrial_utils
+Description: Description of industrial_utils
+Version: 0.7.1
+Cflags: -I/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/src/industrial_core/industrial_utils/include
+Libs: -L${prefix}/lib -lindustrial_utils
+Requires: roscpp urdf

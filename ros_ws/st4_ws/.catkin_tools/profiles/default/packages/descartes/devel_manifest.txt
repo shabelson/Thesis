@@ -1,0 +1,2 @@
+descartes/descartes
+/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/.private/descartes/cmake.lock /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/./cmake.lock

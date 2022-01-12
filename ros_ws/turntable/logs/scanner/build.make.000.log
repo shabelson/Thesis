@@ -1,0 +1,118 @@
+[  8%] [32mBuilding CXX object CMakeFiles/setup.dir/src/setup.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/showRegResultOnline.dir/src/showRegResultOnline.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/camera_emulator.dir/src/camera_emulator.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/processor.dir/src/processor_node.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/pcl_processing.dir/src/pcl_processing.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/rotation_dir.dir/src/rotation_dir.cpp.o[0m
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:40:0[m[K,
+                 from [01m[K/home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/src/Mini-3D-Scanner/src/camera_emulator.cpp:1[m[K:
+[01m[K/home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/src/Mini-3D-Scanner/src/camera_emulator.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/opt/ros/melodic/include/ros/console.h:348:176:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%i[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 8 has type ‘[01m[Kstd::vector<pcl::PointXYZRGBA, Eigen::aligned_allocator<pcl::PointXYZRGBA> >::size_type {aka long unsigned int}[m[K’ [[01;35m[K-Wformat=[m[K]
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__[01;35m[K)[m[K
+                                                                                                                                                                                [01;35m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:351:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     [01;36m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K(NULL, __VA_ARGS__)
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/src/Mini-3D-Scanner/src/camera_emulator.cpp:37:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+         [01;36m[KR[m[KOS_INFO("LOADED FILFE %i",cloud_ptr->points.size ());
+         [01;36m[K^[m[K
+In file included from [01m[K/home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/src/Mini-3D-Scanner/src/showRegResultOnline.cpp:9:0[m[K:
+[01m[K/usr/include/pcl-1.8/pcl/visualization/cloud_viewer.h:202:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+         std::[01;35m[Kauto_ptr[m[K<CloudViewer_impl> impl_;
+              [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/7/bits/locale_conv.h:41:0[m[K,
+                 from [01m[K/usr/include/c++/7/locale:43[m[K,
+                 from [01m[K/usr/include/c++/7/iomanip:43[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/src/Mini-3D-Scanner/src/showRegResultOnline.cpp:5[m[K:
+[01m[K/usr/include/c++/7/bits/unique_ptr.h:51:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   template<typename> class [01;36m[Kauto_ptr[m[K;
+                            [01;36m[K^~~~~~~~[m[K
+[ 58%] [32m[1mLinking CXX executable /home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/devel/.private/scanner/lib/scanner/camera_emulator[0m
+[01m[K/home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/src/Mini-3D-Scanner/src/rotation_dir.cpp:[m[K In function ‘[01m[Kvoid callback(std_msgs::Int64)[m[K’:
+[01m[K/home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/src/Mini-3D-Scanner/src/rotation_dir.cpp:66:51:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid tf::Quaternion::setEulerZYX(const tfScalar&, const tfScalar&, const tfScalar&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+         quat1.setEulerZYX (norm1.z,norm1.y,norm1.x[01;35m[K)[m[K;
+                                                   [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/tf/LinearMath/Matrix3x3.h:20:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/tf/LinearMath/Transform.h:21[m[K,
+                 from [01m[K/opt/ros/melodic/include/tf/transform_datatypes.h:41[m[K,
+                 from [01m[K/opt/ros/melodic/include/tf/time_cache.h:38[m[K,
+                 from [01m[K/opt/ros/melodic/include/tf/tf.h:44[m[K,
+                 from [01m[K/opt/ros/melodic/include/tf/transform_broadcaster.h:36[m[K,
+                 from [01m[K/home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/src/Mini-3D-Scanner/src/rotation_dir.cpp:16[m[K:
+[01m[K/opt/ros/melodic/include/tf/LinearMath/Quaternion.h:116:23:[m[K [01;36m[Knote: [m[Kdeclared here
+   ROS_DEPRECATED void [01;36m[KsetEulerZYX[m[K(const tfScalar& yaw, const tfScalar& pitch, const tfScalar& roll)
+                       [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/src/Mini-3D-Scanner/src/rotation_dir.cpp:81:51:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid tf::Quaternion::setEulerZYX(const tfScalar&, const tfScalar&, const tfScalar&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+         quat2.setEulerZYX (norm2.z,norm2.y,norm2.x[01;35m[K)[m[K;
+                                                   [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/tf/LinearMath/Matrix3x3.h:20:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/tf/LinearMath/Transform.h:21[m[K,
+                 from [01m[K/opt/ros/melodic/include/tf/transform_datatypes.h:41[m[K,
+                 from [01m[K/opt/ros/melodic/include/tf/time_cache.h:38[m[K,
+                 from [01m[K/opt/ros/melodic/include/tf/tf.h:44[m[K,
+                 from [01m[K/opt/ros/melodic/include/tf/transform_broadcaster.h:36[m[K,
+                 from [01m[K/home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/src/Mini-3D-Scanner/src/rotation_dir.cpp:16[m[K:
+[01m[K/opt/ros/melodic/include/tf/LinearMath/Quaternion.h:116:23:[m[K [01;36m[Knote: [m[Kdeclared here
+   ROS_DEPRECATED void [01;36m[KsetEulerZYX[m[K(const tfScalar& yaw, const tfScalar& pitch, const tfScalar& roll)
+                       [01;36m[K^~~~~~~~~~~[m[K
+[ 58%] Built target camera_emulator
+In file included from [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/sac_model.h:52:0[m[K,
+                 from [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/sac.h:45[m[K,
+                 from [01m[K/usr/include/pcl-1.8/pcl/segmentation/sac_segmentation.h:49[m[K,
+                 from [01m[K/home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/src/Mini-3D-Scanner/src/setup.cpp:13[m[K:
+[01m[K/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:[m[K In function ‘[01m[Kvoid __static_initialization_and_destruction_0(int, int)[m[K’:
+[01m[K/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:99:3:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpcl::SAC_SAMPLE_SIZE[m[K’ is deprecated: This map is deprecated and is kept only to prevent breaking existing user code. Starting from PCL 1.8.0 model sample size is a protected member of the SampleConsensusModel class [[01;35m[K-Wdeprecated-declarations[m[K]
+   [01;35m[KSAC_SAMPLE_SIZE[m[K (sample_size_pairs, sample_size_pairs + sizeof (sample_size_pairs) / sizeof (SampleSizeModel));
+   [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:99:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[ 66%] [32m[1mLinking CXX executable /home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/devel/.private/scanner/lib/scanner/showRegResultOnline[0m
+[ 75%] [32m[1mLinking CXX executable /home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/devel/.private/scanner/lib/scanner/setup[0m
+In file included from [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/sac_model.h:52:0[m[K,
+                 from [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/sac.h:45[m[K,
+                 from [01m[K/usr/include/pcl-1.8/pcl/segmentation/sac_segmentation.h:49[m[K,
+                 from [01m[K/home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/src/Mini-3D-Scanner/src/rotation_dir.cpp:11[m[K:
+[01m[K/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:[m[K In function ‘[01m[Kvoid __static_initialization_and_destruction_0(int, int)[m[K’:
+[01m[K/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:99:3:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpcl::SAC_SAMPLE_SIZE[m[K’ is deprecated: This map is deprecated and is kept only to prevent breaking existing user code. Starting from PCL 1.8.0 model sample size is a protected member of the SampleConsensusModel class [[01;35m[K-Wdeprecated-declarations[m[K]
+   [01;35m[KSAC_SAMPLE_SIZE[m[K (sample_size_pairs, sample_size_pairs + sizeof (sample_size_pairs) / sizeof (SampleSizeModel));
+   [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:99:3:[m[K [01;36m[Knote: [m[Kdeclared here
+In file included from [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/sac_model.h:52:0[m[K,
+                 from [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/sac.h:45[m[K,
+                 from [01m[K/usr/include/pcl-1.8/pcl/segmentation/sac_segmentation.h:49[m[K,
+                 from [01m[K/home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/src/Mini-3D-Scanner/include/processor_node.h:17[m[K,
+                 from [01m[K/home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/src/Mini-3D-Scanner/src/processor_node.cpp:1[m[K:
+[01m[K/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:[m[K In function ‘[01m[Kvoid __static_initialization_and_destruction_0(int, int)[m[K’:
+[01m[K/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:99:3:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpcl::SAC_SAMPLE_SIZE[m[K’ is deprecated: This map is deprecated and is kept only to prevent breaking existing user code. Starting from PCL 1.8.0 model sample size is a protected member of the SampleConsensusModel class [[01;35m[K-Wdeprecated-declarations[m[K]
+   [01;35m[KSAC_SAMPLE_SIZE[m[K (sample_size_pairs, sample_size_pairs + sizeof (sample_size_pairs) / sizeof (SampleSizeModel));
+   [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:99:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[ 83%] [32m[1mLinking CXX executable /home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/devel/.private/scanner/lib/scanner/rotation_dir[0m
+In file included from [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/sac_model.h:52:0[m[K,
+                 from [01m[K/usr/include/pcl-1.8/pcl/sample_consensus/sac.h:45[m[K,
+                 from [01m[K/usr/include/pcl-1.8/pcl/segmentation/sac_segmentation.h:49[m[K,
+                 from [01m[K/home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/src/Mini-3D-Scanner/src/pcl_processing.cpp:13[m[K:
+[01m[K/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:[m[K In function ‘[01m[Kvoid __static_initialization_and_destruction_0(int, int)[m[K’:
+[01m[K/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:99:3:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpcl::SAC_SAMPLE_SIZE[m[K’ is deprecated: This map is deprecated and is kept only to prevent breaking existing user code. Starting from PCL 1.8.0 model sample size is a protected member of the SampleConsensusModel class [[01;35m[K-Wdeprecated-declarations[m[K]
+   [01;35m[KSAC_SAMPLE_SIZE[m[K (sample_size_pairs, sample_size_pairs + sizeof (sample_size_pairs) / sizeof (SampleSizeModel));
+   [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.8/pcl/sample_consensus/model_types.h:99:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[ 91%] [32m[1mLinking CXX executable /home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/devel/.private/scanner/lib/scanner/processor[0m
+[100%] [32m[1mLinking CXX executable /home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/devel/.private/scanner/lib/scanner/pcl_processing[0m
+[100%] Built target showRegResultOnline
+[100%] Built target setup
+[100%] Built target processor
+[100%] Built target pcl_processing
+[100%] Built target rotation_dir

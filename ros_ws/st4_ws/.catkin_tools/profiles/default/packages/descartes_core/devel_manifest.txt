@@ -1,0 +1,6 @@
+descartes/descartes_core
+/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/.private/descartes_core/cmake.lock /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/./cmake.lock
+/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/.private/descartes_core/share/descartes_core/cmake/descartes_coreConfig.cmake /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/share/descartes_core/cmake/descartes_coreConfig.cmake
+/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/.private/descartes_core/share/descartes_core/cmake/descartes_coreConfig-version.cmake /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/share/descartes_core/cmake/descartes_coreConfig-version.cmake
+/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/.private/descartes_core/lib/libdescartes_core.so /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/lib/libdescartes_core.so
+/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/.private/descartes_core/lib/pkgconfig/descartes_core.pc /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/lib/pkgconfig/descartes_core.pc

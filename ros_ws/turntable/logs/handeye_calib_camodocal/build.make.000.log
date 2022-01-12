@@ -1,0 +1,4 @@
+[ 66%] [32mBuilding CXX object CMakeFiles/handeye_calib_camodocal.dir/src/handeye_calibration.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/handeye_calib_camodocal.dir/src/camodocal/calib/HandEyeCalibration.cc.o[0m
+[100%] [32m[1mLinking CXX executable /home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/devel/.private/handeye_calib_camodocal/lib/handeye_calib_camodocal/handeye_calib_camodocal[0m
+[100%] Built target handeye_calib_camodocal

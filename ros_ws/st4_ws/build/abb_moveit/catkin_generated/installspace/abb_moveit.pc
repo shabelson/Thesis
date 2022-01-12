@@ -1,0 +1,8 @@
+prefix=/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/install
+
+Name: abb_moveit
+Description: Description of abb_moveit
+Version: 0.3.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

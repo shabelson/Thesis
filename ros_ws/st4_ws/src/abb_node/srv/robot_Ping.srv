@@ -1,0 +1,4 @@
+#Service to Ping the robot
+---
+int64 ret
+string msg

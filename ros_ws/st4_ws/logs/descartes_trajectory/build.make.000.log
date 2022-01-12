@@ -1,0 +1,6 @@
+[ 20%] [32mBuilding CXX object CMakeFiles/descartes_trajectory.dir/src/axial_symmetric_pt.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/descartes_trajectory.dir/src/cart_trajectory_pt.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/descartes_trajectory.dir/src/joint_trajectory_pt.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/descartes_trajectory.dir/src/trajectory.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/.private/descartes_trajectory/lib/libdescartes_trajectory.so[0m
+[100%] Built target descartes_trajectory

@@ -1,0 +1,10 @@
+# Used with wstool.
+- git:
+    local-name: descartes_capability
+    uri: https://github.com/PickNikRobotics/descartes_capability.git
+    version: master
+
+- git:
+    local-name: descartes
+    uri: https://github.com/PickNikRobotics/descartes.git
+    version: melodic-collision-minimum

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<Workspace>
+    <Distribution path="/opt/ros/melodic"/>
+    <DefaultBuildSystem value="1"/>
+    <WatchDirectories>
+        <Directory>src</Directory>
+        <Directory>build</Directory>
+        <Directory>devel</Directory>
+        <Directory>logs</Directory>
+    </WatchDirectories>
+</Workspace>

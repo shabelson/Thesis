@@ -1,0 +1,1 @@
+/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/.private/astra_camera/share/roseus/ros/astra_camera/srv/GetCameraInfo.l

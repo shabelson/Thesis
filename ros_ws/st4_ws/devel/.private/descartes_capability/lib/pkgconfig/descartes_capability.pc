@@ -1,0 +1,8 @@
+prefix=/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/.private/descartes_capability
+
+Name: descartes_capability
+Description: Description of descartes_capability
+Version: 0.0.1
+Cflags: -I/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/src/descartes_capability/include -I/usr/include -I/usr/include/eigen3
+Libs: -L${prefix}/lib -ldescartes_capability
+Requires: roscpp rospy moveit_core moveit_ros_planning moveit_ros_move_group moveit_visual_tools

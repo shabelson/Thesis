@@ -1,0 +1,64 @@
+
+<launch>
+    <arg name="sim" default="True" />
+    <arg name="robot_ip" unless="$(arg sim)" />
+
+
+ <!-- RVIZ  -->
+
+    <!-- Load the URDF to the parameter server -->
+    <param name="robot_description" textfile="$(find abb_irb120_support)/urdf/irb120_3_58.urdf"/>
+
+
+    <!-- Show in Rviz  -->
+    <!--node name="rviz" pkg="rviz" type="rviz" args="-d $(find aubo_control)/basic.rviz"/-->
+    <group if="$(arg sim)">
+      <include file="$(find industrial_robot_simulator)/launch/robot_interface_simulator.launch" />
+    </group>
+
+
+ <!-- CORE  -->
+
+  <!-- Load controller settings  -->
+    <rosparam command="load" file="$(find abb_irb120_support)/config/joint_names_irb120_3_58.yaml" />
+
+    <!-- Load hardware interface -->
+    <node name="abb_hw_main" pkg="abb_HW_main" type="abb_hw_main" output="screen"/>
+
+
+    <!-- Load scene -->
+    <!--node name="planning_scene_primatives" pkg="aubo_motion" type="planning_scene_primatives" output="screen"/-->
+
+
+
+    <!-- Load controller manager  -->
+    <node name="ros_control_controller_manager" pkg="controller_manager" type="controller_manager" respawn="false"
+    output="screen" args="spawn joint_state_controller position_trajectory_controller" />
+
+    <!-- Convert joint states to /tf tranforms -->
+    <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher"/>
+
+    <group>
+      <rosparam command="load" file="$(find abb_node)/launch/robot_params.yaml"/>
+      <node pkg="abb_node" type="abb_node" name="abb_node" output="screen"/>
+    </group>
+
+
+
+ <!-- MOVEIT -->
+
+    <!-- Load the URDF, SRDF and other .yaml configuration files on the param server -->
+
+
+    <!-- Remap follow_joint_trajectory -->
+    <remap from="/joint_trajectory_action" to="/position_trajectory_controller/follow_joint_trajectory"/>
+
+
+    <!-- Run the main MoveIt executable without trajectory execution (we do not have controllers configured by default) -->
+    <include file="$(find abb_irb120_moveit_config)/launch/move_group.launch">
+    <arg name="allow_trajectory_execution" value="true"/>
+    <arg name="fake_execution" value="false"/>
+    <arg name="info" value="true"/>
+    </include>
+
+</launch>

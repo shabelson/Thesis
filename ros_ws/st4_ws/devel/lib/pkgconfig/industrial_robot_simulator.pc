@@ -1,0 +1,1 @@
+/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/.private/industrial_robot_simulator/lib/pkgconfig/industrial_robot_simulator.pc

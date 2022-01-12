@@ -1,0 +1,8 @@
+prefix=/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/.private/external_controllers
+
+Name: external_controllers
+Description: Description of external_controllers
+Version: 0.0.0
+Cflags: -I/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/src/external_controllers/include
+Libs: -L${prefix}/lib -lexternal_controllers
+Requires: control_msgs message_generation message_runtime moveit_core roscpp rospy std_msgs

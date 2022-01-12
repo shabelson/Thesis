@@ -1,0 +1,53 @@
+Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/devel/share/rviz_visual_tools/cmake/rviz_visual_toolsConfig-version.cmake
+Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/devel/share/rviz_visual_tools/cmake/rviz_visual_toolsConfig.cmake
+Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/devel/lib/librviz_visual_tools_imarker_simple.so
+Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/devel/lib/librviz_visual_tools_gui.so
+Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/devel/lib/librviz_visual_tools.so
+Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/devel/lib/librviz_visual_tools_remote_control.so
+Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/devel/lib/librviz_visual_tools_imarker_simple.so.3.9.1
+Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/devel/lib/librviz_visual_tools_gui.so.3.9.1
+Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/devel/lib/librviz_visual_tools_remote_control.so.3.9.1
+Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/devel/lib/librviz_visual_tools.so.3.9.1
+Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/devel/lib/rviz_visual_tools/imarker_simple_demo
+Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/devel/lib/rviz_visual_tools/demo
+Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/devel/lib/pkgconfig/rviz_visual_tools.pc
+Cleaning: (/home/shabelson/ros_ws/turntable/devel/.private/rviz_visual_tools/cmake.lock, /home/shabelson/ros_ws/turntable/devel/./cmake.lock)
+Cleaning: (/home/shabelson/ros_ws/turntable/devel/.private/rviz_visual_tools/share/rviz_visual_tools/cmake/rviz_visual_toolsConfig-version.cmake, /home/shabelson/ros_ws/turntable/devel/share/rviz_visual_tools/cmake/rviz_visual_toolsConfig-version.cmake)
+Cleaning: (/home/shabelson/ros_ws/turntable/devel/.private/rviz_visual_tools/share/rviz_visual_tools/cmake/rviz_visual_toolsConfig.cmake, /home/shabelson/ros_ws/turntable/devel/share/rviz_visual_tools/cmake/rviz_visual_toolsConfig.cmake)
+Cleaning: (/home/shabelson/ros_ws/turntable/devel/.private/rviz_visual_tools/lib/librviz_visual_tools_imarker_simple.so, /home/shabelson/ros_ws/turntable/devel/lib/librviz_visual_tools_imarker_simple.so)
+Cleaning: (/home/shabelson/ros_ws/turntable/devel/.private/rviz_visual_tools/lib/librviz_visual_tools_gui.so, /home/shabelson/ros_ws/turntable/devel/lib/librviz_visual_tools_gui.so)
+Cleaning: (/home/shabelson/ros_ws/turntable/devel/.private/rviz_visual_tools/lib/librviz_visual_tools.so, /home/shabelson/ros_ws/turntable/devel/lib/librviz_visual_tools.so)
+Cleaning: (/home/shabelson/ros_ws/turntable/devel/.private/rviz_visual_tools/lib/librviz_visual_tools_remote_control.so, /home/shabelson/ros_ws/turntable/devel/lib/librviz_visual_tools_remote_control.so)
+Cleaning: (/home/shabelson/ros_ws/turntable/devel/.private/rviz_visual_tools/lib/librviz_visual_tools_imarker_simple.so.3.9.1, /home/shabelson/ros_ws/turntable/devel/lib/librviz_visual_tools_imarker_simple.so.3.9.1)
+Cleaning: (/home/shabelson/ros_ws/turntable/devel/.private/rviz_visual_tools/lib/librviz_visual_tools_gui.so.3.9.1, /home/shabelson/ros_ws/turntable/devel/lib/librviz_visual_tools_gui.so.3.9.1)
+Cleaning: (/home/shabelson/ros_ws/turntable/devel/.private/rviz_visual_tools/lib/librviz_visual_tools_remote_control.so.3.9.1, /home/shabelson/ros_ws/turntable/devel/lib/librviz_visual_tools_remote_control.so.3.9.1)
+Cleaning: (/home/shabelson/ros_ws/turntable/devel/.private/rviz_visual_tools/lib/librviz_visual_tools.so.3.9.1, /home/shabelson/ros_ws/turntable/devel/lib/librviz_visual_tools.so.3.9.1)
+Cleaning: (/home/shabelson/ros_ws/turntable/devel/.private/rviz_visual_tools/lib/rviz_visual_tools/imarker_simple_demo, /home/shabelson/ros_ws/turntable/devel/lib/rviz_visual_tools/imarker_simple_demo)
+Cleaning: (/home/shabelson/ros_ws/turntable/devel/.private/rviz_visual_tools/lib/rviz_visual_tools/demo, /home/shabelson/ros_ws/turntable/devel/lib/rviz_visual_tools/demo)
+Cleaning: (/home/shabelson/ros_ws/turntable/devel/.private/rviz_visual_tools/lib/pkgconfig/rviz_visual_tools.pc, /home/shabelson/ros_ws/turntable/devel/lib/pkgconfig/rviz_visual_tools.pc)
+Unlinking: /home/shabelson/ros_ws/turntable/devel/share/rviz_visual_tools/cmake/rviz_visual_toolsConfig-version.cmake
+Already unlinked: {}
+Unlinking: /home/shabelson/ros_ws/turntable/devel/share/rviz_visual_tools/cmake/rviz_visual_toolsConfig.cmake
+Already unlinked: {}
+Unlinking: /home/shabelson/ros_ws/turntable/devel/lib/librviz_visual_tools_imarker_simple.so
+Already unlinked: {}
+Unlinking: /home/shabelson/ros_ws/turntable/devel/lib/librviz_visual_tools_gui.so
+Already unlinked: {}
+Unlinking: /home/shabelson/ros_ws/turntable/devel/lib/librviz_visual_tools.so
+Already unlinked: {}
+Unlinking: /home/shabelson/ros_ws/turntable/devel/lib/librviz_visual_tools_remote_control.so
+Already unlinked: {}
+Unlinking: /home/shabelson/ros_ws/turntable/devel/lib/librviz_visual_tools_imarker_simple.so.3.9.1
+Already unlinked: {}
+Unlinking: /home/shabelson/ros_ws/turntable/devel/lib/librviz_visual_tools_gui.so.3.9.1
+Already unlinked: {}
+Unlinking: /home/shabelson/ros_ws/turntable/devel/lib/librviz_visual_tools_remote_control.so.3.9.1
+Already unlinked: {}
+Unlinking: /home/shabelson/ros_ws/turntable/devel/lib/librviz_visual_tools.so.3.9.1
+Already unlinked: {}
+Unlinking: /home/shabelson/ros_ws/turntable/devel/lib/rviz_visual_tools/imarker_simple_demo
+Already unlinked: {}
+Unlinking: /home/shabelson/ros_ws/turntable/devel/lib/rviz_visual_tools/demo
+Already unlinked: {}
+Unlinking: /home/shabelson/ros_ws/turntable/devel/lib/pkgconfig/rviz_visual_tools.pc
+Already unlinked: {}

@@ -1,0 +1,12 @@
+<launch>
+
+
+    <node name="processor" pkg="scanner" type="processor" respawn="true"/>
+    <node name="rotation_dir" pkg="scanner" type="rotation_dir" respawn="true"/>
+    <node name="open3d_processing" pkg="scanner" type="open3d_processing.py" respawn="true"/>
+
+    <!--node name="showRegResultOnline" pkg="scanner" type="showRegResultOnline" respawn="true"/-->
+
+
+</launch>
+
