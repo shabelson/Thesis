@@ -1,0 +1,5 @@
+{
+    "sketch": "Arduino_simple_Turn_Ros/Arduino_simple_Turn_Ros.ino",
+    "board": "arduino:avr:uno",
+    "port": "/dev/ttyACM0"
+}
