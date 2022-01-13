@@ -1,2 +1,0 @@
-/home/shabelson/ros_ws/turntable/devel/./cmake.lock 1265
-/home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/devel/./cmake.lock 6
