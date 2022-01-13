@@ -1,8 +1,0 @@
-prefix=/home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/devel/.private/scanner
-
-Name: scanner
-Description: Description of scanner
-Version: 0.1.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

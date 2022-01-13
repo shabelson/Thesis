@@ -1,1 +1,0 @@
-/home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/devel/.private/handeye_calib_camodocal/lib/pkgconfig/handeye_calib_camodocal.pc

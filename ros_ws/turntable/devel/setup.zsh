@@ -1,1 +1,0 @@
-/home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/devel/.private/catkin_tools_prebuild/setup.zsh
