@@ -1,8 +1,0 @@
-prefix=/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/.private/simple_message
-
-Name: simple_message
-Description: Description of simple_message
-Version: 0.7.1
-Cflags: -I/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/src/industrial_core/simple_message/include
-Libs: -L${prefix}/lib -lsimple_message_dummy
-Requires: roscpp industrial_msgs

@@ -1,8 +1,0 @@
-prefix=/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/.private/abb_HW_interface
-
-Name: abb_HW_interface
-Description: Description of abb_HW_interface
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: message_runtime

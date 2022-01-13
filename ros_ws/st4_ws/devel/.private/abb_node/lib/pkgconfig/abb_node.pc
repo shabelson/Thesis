@@ -1,8 +1,0 @@
-prefix=/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/.private/abb_node
-
-Name: abb_node
-Description: Description of abb_node
-Version: 0.1.0
-Cflags: -I/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/.private/abb_node/include -I/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/src/abb_node/include
-Libs: -L${prefix}/lib 
-Requires: rospy roscpp message_runtime geometry_msgs std_msgs sensor_msgs trajectory_msgs control_msgs actionlib actionlib_msgs industrial_robot_client

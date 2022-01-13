@@ -1,1 +1,0 @@
-/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/.private/external_controllers/share/external_controllers/cmake/external_controllersConfig.cmake

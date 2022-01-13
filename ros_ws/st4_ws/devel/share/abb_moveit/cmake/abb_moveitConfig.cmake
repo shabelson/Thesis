@@ -1,1 +1,0 @@
-/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/.private/abb_moveit/share/abb_moveit/cmake/abb_moveitConfig.cmake

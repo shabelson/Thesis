@@ -1,1 +1,0 @@
-/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/.private/abb_HW_interface/lib/pkgconfig/abb_HW_interface.pc

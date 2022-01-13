@@ -1,8 +1,0 @@
-prefix=/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/.private/industrial_deprecated
-
-Name: industrial_deprecated
-Description: Description of industrial_deprecated
-Version: 0.7.1
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
