@@ -1,5 +1,0 @@
-industrial_core/industrial_deprecated
-/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/.private/industrial_deprecated/cmake.lock /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/./cmake.lock
-/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/.private/industrial_deprecated/share/industrial_deprecated/cmake/industrial_deprecatedConfig-version.cmake /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/share/industrial_deprecated/cmake/industrial_deprecatedConfig-version.cmake
-/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/.private/industrial_deprecated/share/industrial_deprecated/cmake/industrial_deprecatedConfig.cmake /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/share/industrial_deprecated/cmake/industrial_deprecatedConfig.cmake
-/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/.private/industrial_deprecated/lib/pkgconfig/industrial_deprecated.pc /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/lib/pkgconfig/industrial_deprecated.pc

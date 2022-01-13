@@ -1,5 +1,0 @@
-industrial_core/industrial_robot_simulator
-/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/.private/industrial_robot_simulator/cmake.lock /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/./cmake.lock
-/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/.private/industrial_robot_simulator/share/industrial_robot_simulator/cmake/industrial_robot_simulatorConfig.cmake /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/share/industrial_robot_simulator/cmake/industrial_robot_simulatorConfig.cmake
-/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/.private/industrial_robot_simulator/share/industrial_robot_simulator/cmake/industrial_robot_simulatorConfig-version.cmake /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/share/industrial_robot_simulator/cmake/industrial_robot_simulatorConfig-version.cmake
-/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/.private/industrial_robot_simulator/lib/pkgconfig/industrial_robot_simulator.pc /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/lib/pkgconfig/industrial_robot_simulator.pc

@@ -1,6 +1,0 @@
-descartes/descartes_trajectory
-/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/.private/descartes_trajectory/cmake.lock /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/./cmake.lock
-/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/.private/descartes_trajectory/share/descartes_trajectory/cmake/descartes_trajectoryConfig.cmake /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/share/descartes_trajectory/cmake/descartes_trajectoryConfig.cmake
-/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/.private/descartes_trajectory/share/descartes_trajectory/cmake/descartes_trajectoryConfig-version.cmake /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/share/descartes_trajectory/cmake/descartes_trajectoryConfig-version.cmake
-/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/.private/descartes_trajectory/lib/libdescartes_trajectory.so /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/lib/libdescartes_trajectory.so
-/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/.private/descartes_trajectory/lib/pkgconfig/descartes_trajectory.pc /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/lib/pkgconfig/descartes_trajectory.pc

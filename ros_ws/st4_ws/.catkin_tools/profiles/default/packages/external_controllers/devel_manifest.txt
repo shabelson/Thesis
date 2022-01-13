@@ -1,6 +1,0 @@
-external_controllers
-/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/.private/external_controllers/cmake.lock /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/./cmake.lock
-/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/.private/external_controllers/share/external_controllers/cmake/external_controllersConfig-version.cmake /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/share/external_controllers/cmake/external_controllersConfig-version.cmake
-/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/.private/external_controllers/share/external_controllers/cmake/external_controllersConfig.cmake /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/share/external_controllers/cmake/external_controllersConfig.cmake
-/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/.private/external_controllers/lib/external_controllers/keyboard_controller /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/lib/external_controllers/keyboard_controller
-/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/.private/external_controllers/lib/pkgconfig/external_controllers.pc /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/lib/pkgconfig/external_controllers.pc

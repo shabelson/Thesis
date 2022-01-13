@@ -1,6 +1,0 @@
-descartes/descartes_utilities
-/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/.private/descartes_utilities/cmake.lock /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/./cmake.lock
-/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/.private/descartes_utilities/share/descartes_utilities/cmake/descartes_utilitiesConfig.cmake /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/share/descartes_utilities/cmake/descartes_utilitiesConfig.cmake
-/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/.private/descartes_utilities/share/descartes_utilities/cmake/descartes_utilitiesConfig-version.cmake /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/share/descartes_utilities/cmake/descartes_utilitiesConfig-version.cmake
-/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/.private/descartes_utilities/lib/libdescartes_utilities.so /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/lib/libdescartes_utilities.so
-/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/.private/descartes_utilities/lib/pkgconfig/descartes_utilities.pc /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/lib/pkgconfig/descartes_utilities.pc
