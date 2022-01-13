@@ -1,0 +1,11 @@
+<launch>
+  <!-- By default we do not overwrite the URDF. Change the following to true to change the default behavior -->
+  <arg name="load_astra_description" default="true"/>
+
+  <!-- The name of the parameter under which the URDF is loaded -->
+  <arg name="camera_description" default="astra_description"/>
+
+  <!-- Load universal robot description format (URDF) -->
+  <param if="$(arg load_astra_description)" name="$(arg camera_description)" command="xacro --inorder  '$(find astra_camera)/urdf/astra_camera_macro.xacro'"/>
+
+</launch>

@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro">
+ <xacro:include filename="$(find astra_camera)/urdf/common_materials.xacro"/>
+ <xacro:macro name="astra_camera" params="prefix">
+ <xacro:property name="pi" value="3.14159" />
+    <link name ="${prefix}camera_body_link">
+     <inertial>
+            <mass value="0.5"/>
+            <origin xyz="-0.04204 8.01E-05 0.07964" rpy="0 0 0"/>
+            <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+            </inertial>   
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+              <mesh filename="package://astra_camera/meshes/astra.stl"/>
+            </geometry>
+            <xacro:material_abb_black/>
+          </visual>
+          <collision>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+              <mesh filename="package://astra_camera/meshes/astra.stl"/>
+            </geometry>
+
+          </collision>
+    </link>
+
+
+<joint type="fixed" name="${prefix}odom_to_cam">
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <parent link="$base_link"/>
+    <child link="${prefix}camera_body_link"/>
+    </joint>
+
+<joint type="fixed" name="${prefix}cam_to_camlink">
+    <origin xyz="0 0 0" rpy="0 ${-pi*0.5} 0"/>
+    <parent link="${prefix}camera_body_link"/>
+    <child link="${prefix}camera_link"/>
+    </joint>
+
+<link name="${prefix}camera_link"/>
+ </xacro:macro>
+</robot>

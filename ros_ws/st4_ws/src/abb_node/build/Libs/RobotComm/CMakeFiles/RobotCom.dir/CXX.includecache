@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../Libs/RobotComm/include/abb_comm.h
+iostream
+-
+string
+-
+math.h
+../Libs/RobotComm/include/math.h
+cstdio
+-
+
+/home/shabelson/st4_ws/src/abb_node/Libs/RobotComm/src/abb_comm.cpp
+abb_comm.h
+/home/shabelson/st4_ws/src/abb_node/Libs/RobotComm/src/abb_comm.h
+stdlib.h
+-
+cstdio
+-
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+
+<robot name="abb_irb120_3_58" xmlns:xacro="http://ros.org/wiki/xacro">
+  <xacro:include filename="$(find abb_irb120_support)/urdf/irb120_3_58_camera_ee_macro.xacro"/>
+  <xacro:include filename="$(find astra_camera)/urdf/astra_camera_macro.xacro"/>
+
+
+  <xacro:abb_irb120_3_58 prefix=""/>
+  <xacro:astra_camera prefix=""/>
+</robot>
