@@ -1,2 +1,0 @@
-set(abb_node_MESSAGE_FILES "")
-set(abb_node_SERVICE_FILES "srv/robot_GetJoints.srv;srv/robot_GetCartesian.srv;srv/robot_IsMoving.srv;srv/robot_Ping.srv;srv/robot_SetCartesian.srv;srv/robot_SetComm.srv;srv/robot_SetDIO.srv;srv/robot_SetJoints.srv;srv/robot_SetSpeed.srv;srv/robot_SetTool.srv;srv/robot_SetTrackDist.srv;srv/robot_SetVacuum.srv;srv/robot_SetWorkObject.srv;srv/robot_SetZone.srv;srv/robot_SpecialCommand.srv;srv/robot_Stop.srv")

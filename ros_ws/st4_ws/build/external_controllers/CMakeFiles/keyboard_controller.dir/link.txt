@@ -1,1 +1,0 @@
-/usr/bin/c++ -rdynamic CMakeFiles/keyboard_controller.dir/src/keyboard_controller.cpp.o -o /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/.private/external_controllers/lib/external_controllers/keyboard_controller 
