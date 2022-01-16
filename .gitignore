@@ -1,0 +1,7 @@
+ros_ws/st4_ws/devel/
+ros_ws/st4_ws/logs/
+ros_ws/st4_ws/build/
+ros_ws/st4_ws/.catkin_tools/
+
+tt.txt
+ros_ws/st4_ws/.catkin_tools/profiles/default/build.yaml
