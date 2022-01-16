@@ -10,37 +10,3 @@ Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/devel/./_set
 Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
 Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
 Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/devel/lib/pkgconfig/catkin_tools_prebuild.pc
-Cleaning: (/home/shabelson/ros_ws/turntable/devel/.private/catkin_tools_prebuild/setup.bash, /home/shabelson/ros_ws/turntable/devel/./setup.bash)
-Cleaning: (/home/shabelson/ros_ws/turntable/devel/.private/catkin_tools_prebuild/cmake.lock, /home/shabelson/ros_ws/turntable/devel/./cmake.lock)
-Cleaning: (/home/shabelson/ros_ws/turntable/devel/.private/catkin_tools_prebuild/setup.sh, /home/shabelson/ros_ws/turntable/devel/./setup.sh)
-Cleaning: (/home/shabelson/ros_ws/turntable/devel/.private/catkin_tools_prebuild/setup.zsh, /home/shabelson/ros_ws/turntable/devel/./setup.zsh)
-Cleaning: (/home/shabelson/ros_ws/turntable/devel/.private/catkin_tools_prebuild/local_setup.zsh, /home/shabelson/ros_ws/turntable/devel/./local_setup.zsh)
-Cleaning: (/home/shabelson/ros_ws/turntable/devel/.private/catkin_tools_prebuild/local_setup.sh, /home/shabelson/ros_ws/turntable/devel/./local_setup.sh)
-Cleaning: (/home/shabelson/ros_ws/turntable/devel/.private/catkin_tools_prebuild/local_setup.bash, /home/shabelson/ros_ws/turntable/devel/./local_setup.bash)
-Cleaning: (/home/shabelson/ros_ws/turntable/devel/.private/catkin_tools_prebuild/env.sh, /home/shabelson/ros_ws/turntable/devel/./env.sh)
-Cleaning: (/home/shabelson/ros_ws/turntable/devel/.private/catkin_tools_prebuild/_setup_util.py, /home/shabelson/ros_ws/turntable/devel/./_setup_util.py)
-Cleaning: (/home/shabelson/ros_ws/turntable/devel/.private/catkin_tools_prebuild/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake, /home/shabelson/ros_ws/turntable/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake)
-Cleaning: (/home/shabelson/ros_ws/turntable/devel/.private/catkin_tools_prebuild/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake, /home/shabelson/ros_ws/turntable/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake)
-Cleaning: (/home/shabelson/ros_ws/turntable/devel/.private/catkin_tools_prebuild/lib/pkgconfig/catkin_tools_prebuild.pc, /home/shabelson/ros_ws/turntable/devel/lib/pkgconfig/catkin_tools_prebuild.pc)
-Unlinking: /home/shabelson/ros_ws/turntable/devel/./setup.bash
-Already unlinked: {}
-Unlinking: /home/shabelson/ros_ws/turntable/devel/./setup.sh
-Already unlinked: {}
-Unlinking: /home/shabelson/ros_ws/turntable/devel/./setup.zsh
-Already unlinked: {}
-Unlinking: /home/shabelson/ros_ws/turntable/devel/./local_setup.zsh
-Already unlinked: {}
-Unlinking: /home/shabelson/ros_ws/turntable/devel/./local_setup.sh
-Already unlinked: {}
-Unlinking: /home/shabelson/ros_ws/turntable/devel/./local_setup.bash
-Already unlinked: {}
-Unlinking: /home/shabelson/ros_ws/turntable/devel/./env.sh
-Already unlinked: {}
-Unlinking: /home/shabelson/ros_ws/turntable/devel/./_setup_util.py
-Already unlinked: {}
-Unlinking: /home/shabelson/ros_ws/turntable/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
-Already unlinked: {}
-Unlinking: /home/shabelson/ros_ws/turntable/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
-Already unlinked: {}
-Unlinking: /home/shabelson/ros_ws/turntable/devel/lib/pkgconfig/catkin_tools_prebuild.pc
-Already unlinked: {}

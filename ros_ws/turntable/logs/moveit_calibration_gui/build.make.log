@@ -1,10 +1,10 @@
 [  8%] [34m[1mAutomatic MOC for target moveit_handeye_calibration_rviz_plugin_core[0m
 [  8%] Built target moveit_handeye_calibration_rviz_plugin_core_autogen
-[ 25%] [32mBuilding CXX object handeye_calibration_rviz_plugin/CMakeFiles/moveit_handeye_calibration_rviz_plugin_core.dir/moveit_handeye_calibration_rviz_plugin_core_autogen/mocs_compilation.cpp.o[0m
-[ 25%] [32mBuilding CXX object handeye_calibration_rviz_plugin/CMakeFiles/moveit_handeye_calibration_rviz_plugin_core.dir/src/handeye_calibration_display.cpp.o[0m
-[ 41%] [32mBuilding CXX object handeye_calibration_rviz_plugin/CMakeFiles/moveit_handeye_calibration_rviz_plugin_core.dir/src/handeye_target_widget.cpp.o[0m
-[ 41%] [32mBuilding CXX object handeye_calibration_rviz_plugin/CMakeFiles/moveit_handeye_calibration_rviz_plugin_core.dir/src/handeye_calibration_frame.cpp.o[0m
-[ 50%] [32mBuilding CXX object handeye_calibration_rviz_plugin/CMakeFiles/moveit_handeye_calibration_rviz_plugin_core.dir/src/handeye_context_widget.cpp.o[0m
+[ 33%] [32mBuilding CXX object handeye_calibration_rviz_plugin/CMakeFiles/moveit_handeye_calibration_rviz_plugin_core.dir/moveit_handeye_calibration_rviz_plugin_core_autogen/mocs_compilation.cpp.o[0m
+[ 33%] [32mBuilding CXX object handeye_calibration_rviz_plugin/CMakeFiles/moveit_handeye_calibration_rviz_plugin_core.dir/src/handeye_calibration_frame.cpp.o[0m
+[ 33%] [32mBuilding CXX object handeye_calibration_rviz_plugin/CMakeFiles/moveit_handeye_calibration_rviz_plugin_core.dir/src/handeye_calibration_display.cpp.o[0m
+[ 41%] [32mBuilding CXX object handeye_calibration_rviz_plugin/CMakeFiles/moveit_handeye_calibration_rviz_plugin_core.dir/src/handeye_context_widget.cpp.o[0m
+[ 50%] [32mBuilding CXX object handeye_calibration_rviz_plugin/CMakeFiles/moveit_handeye_calibration_rviz_plugin_core.dir/src/handeye_target_widget.cpp.o[0m
 [ 58%] [32mBuilding CXX object handeye_calibration_rviz_plugin/CMakeFiles/moveit_handeye_calibration_rviz_plugin_core.dir/src/handeye_control_widget.cpp.o[0m
 [ 66%] [32m[1mLinking CXX shared library /home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/devel/.private/moveit_calibration_gui/lib/libmoveit_handeye_calibration_rviz_plugin_core.so[0m
 [ 66%] Built target moveit_handeye_calibration_rviz_plugin_core

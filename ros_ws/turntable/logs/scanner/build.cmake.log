@@ -288,8 +288,8 @@ This warning is for project developers.  Use -Wno-dev to suppress it.
   CMakeLists.txt:27 (find_package)
 This warning is for project developers.  Use -Wno-dev to suppress it.
 [0m
-[0m** WARNING ** visualization features related to rssdk will be disabled[0m
 [36m--[0m Could NOT find RSSDK (missing: _RSSDK_LIBRARIES)
+[0m** WARNING ** visualization features related to rssdk will be disabled[0m
 [33mCMake Warning (dev) at /usr/local/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
   The package name passed to `find_package_handle_standard_args` (qhull) does
   not match the name of the calling package (PCL).  This can lead to problems

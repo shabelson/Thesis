@@ -5,25 +5,3 @@ Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/devel/lib/li
 Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/devel/lib/libmoveit_handeye_calibration_rviz_plugin_core.so.0.1.0
 Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/devel/lib/libmoveit_handeye_calibration_rviz_plugin.so.0.1.0
 Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/devel/lib/pkgconfig/moveit_calibration_gui.pc
-Cleaning: (/home/shabelson/ros_ws/turntable/devel/.private/moveit_calibration_gui/cmake.lock, /home/shabelson/ros_ws/turntable/devel/./cmake.lock)
-Cleaning: (/home/shabelson/ros_ws/turntable/devel/.private/moveit_calibration_gui/share/moveit_calibration_gui/cmake/moveit_calibration_guiConfig.cmake, /home/shabelson/ros_ws/turntable/devel/share/moveit_calibration_gui/cmake/moveit_calibration_guiConfig.cmake)
-Cleaning: (/home/shabelson/ros_ws/turntable/devel/.private/moveit_calibration_gui/share/moveit_calibration_gui/cmake/moveit_calibration_guiConfig-version.cmake, /home/shabelson/ros_ws/turntable/devel/share/moveit_calibration_gui/cmake/moveit_calibration_guiConfig-version.cmake)
-Cleaning: (/home/shabelson/ros_ws/turntable/devel/.private/moveit_calibration_gui/lib/libmoveit_handeye_calibration_rviz_plugin_core.so, /home/shabelson/ros_ws/turntable/devel/lib/libmoveit_handeye_calibration_rviz_plugin_core.so)
-Cleaning: (/home/shabelson/ros_ws/turntable/devel/.private/moveit_calibration_gui/lib/libmoveit_handeye_calibration_rviz_plugin.so, /home/shabelson/ros_ws/turntable/devel/lib/libmoveit_handeye_calibration_rviz_plugin.so)
-Cleaning: (/home/shabelson/ros_ws/turntable/devel/.private/moveit_calibration_gui/lib/libmoveit_handeye_calibration_rviz_plugin_core.so.0.1.0, /home/shabelson/ros_ws/turntable/devel/lib/libmoveit_handeye_calibration_rviz_plugin_core.so.0.1.0)
-Cleaning: (/home/shabelson/ros_ws/turntable/devel/.private/moveit_calibration_gui/lib/libmoveit_handeye_calibration_rviz_plugin.so.0.1.0, /home/shabelson/ros_ws/turntable/devel/lib/libmoveit_handeye_calibration_rviz_plugin.so.0.1.0)
-Cleaning: (/home/shabelson/ros_ws/turntable/devel/.private/moveit_calibration_gui/lib/pkgconfig/moveit_calibration_gui.pc, /home/shabelson/ros_ws/turntable/devel/lib/pkgconfig/moveit_calibration_gui.pc)
-Unlinking: /home/shabelson/ros_ws/turntable/devel/share/moveit_calibration_gui/cmake/moveit_calibration_guiConfig.cmake
-Already unlinked: {}
-Unlinking: /home/shabelson/ros_ws/turntable/devel/share/moveit_calibration_gui/cmake/moveit_calibration_guiConfig-version.cmake
-Already unlinked: {}
-Unlinking: /home/shabelson/ros_ws/turntable/devel/lib/libmoveit_handeye_calibration_rviz_plugin_core.so
-Already unlinked: {}
-Unlinking: /home/shabelson/ros_ws/turntable/devel/lib/libmoveit_handeye_calibration_rviz_plugin.so
-Already unlinked: {}
-Unlinking: /home/shabelson/ros_ws/turntable/devel/lib/libmoveit_handeye_calibration_rviz_plugin_core.so.0.1.0
-Already unlinked: {}
-Unlinking: /home/shabelson/ros_ws/turntable/devel/lib/libmoveit_handeye_calibration_rviz_plugin.so.0.1.0
-Already unlinked: {}
-Unlinking: /home/shabelson/ros_ws/turntable/devel/lib/pkgconfig/moveit_calibration_gui.pc
-Already unlinked: {}

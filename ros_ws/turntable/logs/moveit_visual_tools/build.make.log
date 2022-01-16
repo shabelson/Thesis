@@ -1,6 +1,6 @@
 [  0%] Built target graph_msgs_generate_messages_cpp
-[ 50%] [32mBuilding CXX object CMakeFiles/moveit_visual_tools.dir/src/imarker_robot_state.cpp.o[0m
 [ 50%] [32mBuilding CXX object CMakeFiles/moveit_visual_tools.dir/src/moveit_visual_tools.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/moveit_visual_tools.dir/src/imarker_robot_state.cpp.o[0m
 [ 50%] [32mBuilding CXX object CMakeFiles/moveit_visual_tools.dir/src/imarker_end_effector.cpp.o[0m
 [ 66%] [32m[1mLinking CXX shared library /home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/devel/.private/moveit_visual_tools/lib/libmoveit_visual_tools.so[0m
 [ 66%] Built target moveit_visual_tools

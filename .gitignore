@@ -1,7 +1,9 @@
 ros_ws/st4_ws/devel/
 ros_ws/st4_ws/build/
 ros_ws/st4_ws/.catkin_tools/
-
-tt.txt
-ros_ws/st4_ws/.catkin_tools/profiles/default/build.yaml
 ros_ws/st4_ws/logs/
+
+ros_ws/turntable/devel/
+ros_ws/turntable/build/
+ros_ws/turntable/.catkin_tools/
+ros_ws/turntable/logs/
