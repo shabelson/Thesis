@@ -1,153 +1,153 @@
-[  0%] Built target _abb_node_generate_messages_check_deps_robot_SetVacuum
-[  0%] Built target _abb_node_generate_messages_check_deps_robot_SetZone
-[  0%] Built target _abb_node_generate_messages_check_deps_robot_IsMoving
-[  0%] Built target _abb_node_generate_messages_check_deps_robot_SetWorkObject
-[  0%] Built target _abb_node_generate_messages_check_deps_robot_SetJoints
-[  0%] Built target _abb_node_generate_messages_check_deps_robot_SetSpeed
-[  0%] Built target _abb_node_generate_messages_check_deps_robot_SetTrackDist
 [  0%] Built target std_msgs_generate_messages_nodejs
-[  0%] Built target geometry_msgs_generate_messages_nodejs
-[  0%] Built target _abb_node_generate_messages_check_deps_robot_SetTool
-[  0%] Built target actionlib_msgs_generate_messages_nodejs
 [  0%] Built target _abb_node_generate_messages_check_deps_robot_GetJoints
-[  0%] Built target _abb_node_generate_messages_check_deps_robot_Stop
-[  0%] Built target _abb_node_generate_messages_check_deps_robot_SetComm
+[  0%] Built target _abb_node_generate_messages_check_deps_robot_SetTool
+[  0%] Built target _abb_node_generate_messages_check_deps_robot_SetTrackDist
 [  0%] Built target _abb_node_generate_messages_check_deps_robot_SpecialCommand
-[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target _abb_node_generate_messages_check_deps_robot_SetComm
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target _abb_node_generate_messages_check_deps_robot_Stop
 [  0%] Built target _abb_node_generate_messages_check_deps_robot_SetCartesian
-[  0%] Built target control_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_nodejs
 [  0%] Built target trajectory_msgs_generate_messages_nodejs
-[  0%] Built target geometry_msgs_generate_messages_py
-[  0%] Built target actionlib_msgs_generate_messages_py
-[  0%] Built target std_msgs_generate_messages_py
-[  0%] Built target sensor_msgs_generate_messages_py
-[  0%] Built target control_msgs_generate_messages_py
+[  0%] Built target control_msgs_generate_messages_nodejs
 [  0%] Built target _abb_node_generate_messages_check_deps_robot_SetDIO
-[  0%] Built target std_msgs_generate_messages_lisp
-[  0%] Built target trajectory_msgs_generate_messages_py
-[  0%] Built target actionlib_msgs_generate_messages_lisp
-[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target _abb_node_generate_messages_check_deps_robot_IsMoving
+[  0%] Built target _abb_node_generate_messages_check_deps_robot_SetVacuum
 [  0%] Built target _abb_node_generate_messages_check_deps_robot_Ping
 [  0%] Built target _abb_node_generate_messages_check_deps_robot_GetCartesian
+[  0%] Built target _abb_node_generate_messages_check_deps_robot_SetZone
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target _abb_node_generate_messages_check_deps_robot_SetSpeed
+[  0%] Built target trajectory_msgs_generate_messages_py
+[  0%] Built target control_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target _abb_node_generate_messages_check_deps_robot_SetWorkObject
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_lisp
 [  0%] Built target control_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_lisp
 [  0%] Built target trajectory_msgs_generate_messages_lisp
-[  0%] Built target sensor_msgs_generate_messages_lisp
 [  0%] Built target control_msgs_generate_messages_eus
+[  0%] Built target _abb_node_generate_messages_check_deps_robot_SetJoints
+[  0%] Built target sensor_msgs_generate_messages_lisp
 [  0%] Built target geometry_msgs_generate_messages_eus
 [  0%] Built target actionlib_msgs_generate_messages_eus
-[  0%] Built target std_msgs_generate_messages_eus
-[  0%] Built target geometry_msgs_generate_messages_cpp
 [  0%] Built target trajectory_msgs_generate_messages_eus
 [  0%] Built target sensor_msgs_generate_messages_eus
 [  0%] Built target trajectory_msgs_generate_messages_cpp
 [  0%] Built target std_msgs_generate_messages_cpp
-[  0%] Built target control_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_eus
 [  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target control_msgs_generate_messages_cpp
 [  0%] Built target actionlib_msgs_generate_messages_cpp
 [  1%] [32mBuilding CXX object Libs/RobotMath/CMakeFiles/RobotMath.dir/src/HomogTransf.cpp.o[0m
-[  2%] [32mBuilding CXX object Libs/RobotMath/CMakeFiles/RobotMath.dir/src/Polynom.cpp.o[0m
-[  2%] [32mBuilding CXX object Libs/RobotComm/CMakeFiles/RobotCom.dir/src/abb_comm.cpp.o[0m
-[  3%] [32mBuilding CXX object Libs/RobotMath/CMakeFiles/RobotMath.dir/src/Mat.cpp.o[0m
-[  4%] [32mBuilding CXX object Libs/Robot_Responce_Simulator/CMakeFiles/RobotSim.dir/src/rapid_responce_simulator.cpp.o[0m
+[  2%] [32mBuilding CXX object Libs/RobotMath/CMakeFiles/RobotMath.dir/src/Mat.cpp.o[0m
+[  2%] Built target geometry_msgs_generate_messages_cpp
+[  3%] [32mBuilding CXX object Libs/Robot_Responce_Simulator/CMakeFiles/RobotSim.dir/src/rapid_responce_simulator.cpp.o[0m
+[  4%] [32mBuilding CXX object Libs/RobotMath/CMakeFiles/RobotMath.dir/src/Polynom.cpp.o[0m
+[  4%] [32mBuilding CXX object Libs/RobotComm/CMakeFiles/RobotCom.dir/src/abb_comm.cpp.o[0m
 [  5%] [34m[1mGenerating Javascript code from abb_node/robot_SetTrackDist.srv[0m
 [  6%] [34m[1mGenerating Python code from SRV abb_node/robot_SetTrackDist[0m
 [  6%] [34m[1mGenerating Javascript code from abb_node/robot_SetComm.srv[0m
 [  7%] [34m[1mGenerating Javascript code from abb_node/robot_SetCartesian.srv[0m
 [  8%] [34m[1mGenerating Javascript code from abb_node/robot_SetZone.srv[0m
 [ 10%] [34m[1mGenerating Python code from SRV abb_node/robot_SetComm[0m
-[ 11%] [34m[1mGenerating Javascript code from abb_node/robot_Ping.srv[0m
-[ 12%] [34m[1mGenerating Javascript code from abb_node/robot_SetDIO.srv[0m
-[ 13%] [34m[1mGenerating Javascript code from abb_node/robot_SetWorkObject.srv[0m
-[ 14%] [32m[1mLinking CXX shared library /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/.private/abb_node/lib/libRobotCom.so[0m
+[ 12%] [32mBuilding CXX object Libs/RobotMath/CMakeFiles/RobotMath.dir/src/Quaternion.cpp.o[0m
+[ 12%] [32m[1mLinking CXX shared library /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/lib/libRobotCom.so[0m
+[ 13%] [34m[1mGenerating Javascript code from abb_node/robot_Ping.srv[0m
+[ 14%] [34m[1mGenerating Javascript code from abb_node/robot_SetDIO.srv[0m
 [ 15%] [32mBuilding CXX object Libs/RobotMath/CMakeFiles/RobotMath.dir/src/RotMat.cpp.o[0m
-[ 16%] [32mBuilding CXX object Libs/RobotMath/CMakeFiles/RobotMath.dir/src/Quaternion.cpp.o[0m
+[ 16%] [34m[1mGenerating Javascript code from abb_node/robot_SetWorkObject.srv[0m
+[ 16%] Built target RobotCom
 [ 17%] [34m[1mGenerating Javascript code from abb_node/robot_SetJoints.srv[0m
-[ 19%] [34m[1mGenerating Python code from SRV abb_node/robot_SetCartesian[0m
-[ 20%] [34m[1mGenerating Javascript code from abb_node/robot_SetSpeed.srv[0m
-[ 20%] Built target RobotCom
-[ 21%] [32mBuilding CXX object Libs/RobotMath/CMakeFiles/RobotMath.dir/src/Vec.cpp.o[0m
-[ 22%] [34m[1mGenerating Lisp code from abb_node/robot_SetTrackDist.srv[0m
-[ 23%] [34m[1mGenerating Javascript code from abb_node/robot_SpecialCommand.srv[0m
-[ 24%] [34m[1mGenerating Javascript code from abb_node/robot_SetVacuum.srv[0m
-[ 25%] [34m[1mGenerating Lisp code from abb_node/robot_SetComm.srv[0m
-[ 26%] [34m[1mGenerating Lisp code from abb_node/robot_SetCartesian.srv[0m
+[ 19%] [34m[1mGenerating Lisp code from abb_node/robot_SetTrackDist.srv[0m
+[ 20%] [32mBuilding CXX object Libs/RobotMath/CMakeFiles/RobotMath.dir/src/Vec.cpp.o[0m
+[ 21%] [34m[1mGenerating Javascript code from abb_node/robot_SetSpeed.srv[0m
+[ 22%] [34m[1mGenerating Javascript code from abb_node/robot_SpecialCommand.srv[0m
+[ 23%] [34m[1mGenerating Lisp code from abb_node/robot_SetComm.srv[0m
+[ 24%] [34m[1mGenerating Python code from SRV abb_node/robot_SetCartesian[0m
+[ 25%] [34m[1mGenerating Lisp code from abb_node/robot_SetCartesian.srv[0m
+[ 26%] [34m[1mGenerating Javascript code from abb_node/robot_SetVacuum.srv[0m
 [ 28%] [34m[1mGenerating Python code from SRV abb_node/robot_SetZone[0m
-[ 29%] [34m[1mGenerating Javascript code from abb_node/robot_IsMoving.srv[0m
-[ 30%] [34m[1mGenerating Python code from SRV abb_node/robot_Ping[0m
-[ 31%] [34m[1mGenerating Lisp code from abb_node/robot_SetZone.srv[0m
-[ 32%] [34m[1mGenerating Javascript code from abb_node/robot_Stop.srv[0m
-[ 33%] [34m[1mGenerating Javascript code from abb_node/robot_GetJoints.srv[0m
-[ 34%] [34m[1mGenerating Lisp code from abb_node/robot_Ping.srv[0m
-[ 34%] [34m[1mGenerating EusLisp code from abb_node/robot_SetTrackDist.srv[0m
-[ 35%] [34m[1mGenerating Javascript code from abb_node/robot_SetTool.srv[0m
-[ 37%] [34m[1mGenerating C++ code from abb_node/robot_SetTrackDist.srv[0m
-[ 38%] [34m[1mGenerating Javascript code from abb_node/robot_GetCartesian.srv[0m
-[ 39%] [34m[1mGenerating C++ code from abb_node/robot_SetComm.srv[0m
-[ 40%] [34m[1mGenerating Lisp code from abb_node/robot_SetDIO.srv[0m
-[ 41%] [34m[1mGenerating Lisp code from abb_node/robot_SetWorkObject.srv[0m
-[ 42%] [34m[1mGenerating EusLisp code from abb_node/robot_SetComm.srv[0m
+[ 29%] [34m[1mGenerating Python code from SRV abb_node/robot_Ping[0m
+[ 30%] [34m[1mGenerating Lisp code from abb_node/robot_SetZone.srv[0m
+[ 31%] [34m[1mGenerating Lisp code from abb_node/robot_Ping.srv[0m
+[ 32%] [34m[1mGenerating Javascript code from abb_node/robot_IsMoving.srv[0m
+[ 33%] [34m[1mGenerating Lisp code from abb_node/robot_SetDIO.srv[0m
+[ 33%] [34m[1mGenerating EusLisp code from abb_node/robot_SetTrackDist.srv[0m
+[ 34%] [34m[1mGenerating Javascript code from abb_node/robot_Stop.srv[0m
+[ 35%] [34m[1mGenerating EusLisp code from abb_node/robot_SetComm.srv[0m
+[ 37%] [34m[1mGenerating Lisp code from abb_node/robot_SetWorkObject.srv[0m
+[ 38%] [34m[1mGenerating Javascript code from abb_node/robot_GetJoints.srv[0m
+[ 39%] [32m[1mLinking CXX shared library /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/lib/libRobotMath.so[0m
+[ 40%] [34m[1mGenerating Lisp code from abb_node/robot_SetJoints.srv[0m
+[ 40%] [34m[1mGenerating Lisp code from abb_node/robot_SetSpeed.srv[0m
+[ 41%] [34m[1mGenerating Lisp code from abb_node/robot_SpecialCommand.srv[0m
+[ 42%] [34m[1mGenerating Javascript code from abb_node/robot_SetTool.srv[0m
 [ 43%] [34m[1mGenerating EusLisp code from abb_node/robot_SetCartesian.srv[0m
-[ 44%] [34m[1mGenerating Python code from SRV abb_node/robot_SetDIO[0m
-[ 44%] Built target abb_node_generate_messages_nodejs
-[ 47%] [34m[1mGenerating Python code from SRV abb_node/robot_SetJoints[0m
+[ 44%] [34m[1mGenerating Javascript code from abb_node/robot_GetCartesian.srv[0m
+[ 46%] [34m[1mGenerating Python code from SRV abb_node/robot_SetDIO[0m
 [ 47%] [34m[1mGenerating Python code from SRV abb_node/robot_SetWorkObject[0m
-[ 48%] [32m[1mLinking CXX shared library /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/.private/abb_node/lib/libRobotMath.so[0m
-[ 49%] [34m[1mGenerating Lisp code from abb_node/robot_SetJoints.srv[0m
-[ 49%] [34m[1mGenerating Lisp code from abb_node/robot_SetSpeed.srv[0m
-[ 50%] [34m[1mGenerating Lisp code from abb_node/robot_SpecialCommand.srv[0m
-[ 51%] [34m[1mGenerating EusLisp code from abb_node/robot_SetZone.srv[0m
+[ 48%] [34m[1mGenerating Python code from SRV abb_node/robot_SetJoints[0m
+[ 49%] [34m[1mGenerating Lisp code from abb_node/robot_SetVacuum.srv[0m
+[ 50%] [34m[1mGenerating Lisp code from abb_node/robot_IsMoving.srv[0m
+[ 50%] Built target abb_node_generate_messages_nodejs
 [ 52%] [34m[1mGenerating EusLisp code from abb_node/robot_Ping.srv[0m
-[ 53%] [34m[1mGenerating Lisp code from abb_node/robot_SetVacuum.srv[0m
-[ 53%] Built target RobotMath
-[ 55%] [34m[1mGenerating Lisp code from abb_node/robot_IsMoving.srv[0m
-[ 56%] [34m[1mGenerating C++ code from abb_node/robot_SetCartesian.srv[0m
-[ 57%] [32mBuilding CXX object CMakeFiles/abb_node_moveit.dir/src/abb_node_moveit.cpp.o[0m
-[ 58%] [34m[1mGenerating EusLisp code from abb_node/robot_SetDIO.srv[0m
-[ 59%] [34m[1mGenerating Lisp code from abb_node/robot_Stop.srv[0m
-[ 60%] [34m[1mGenerating Lisp code from abb_node/robot_GetJoints.srv[0m
-[ 61%] [34m[1mGenerating EusLisp code from abb_node/robot_SetWorkObject.srv[0m
-[ 62%] [34m[1mGenerating Python code from SRV abb_node/robot_SetSpeed[0m
-[ 64%] [34m[1mGenerating Python code from SRV abb_node/robot_SpecialCommand[0m
-[ 65%] [34m[1mGenerating Lisp code from abb_node/robot_SetTool.srv[0m
-[ 66%] [34m[1mGenerating Lisp code from abb_node/robot_GetCartesian.srv[0m
-[ 67%] [34m[1mGenerating EusLisp code from abb_node/robot_SetJoints.srv[0m
-[ 68%] [34m[1mGenerating C++ code from abb_node/robot_SetZone.srv[0m
-[ 69%] [34m[1mGenerating C++ code from abb_node/robot_Ping.srv[0m
-[ 70%] [34m[1mGenerating Python code from SRV abb_node/robot_SetVacuum[0m
-[ 70%] Built target abb_node_generate_messages_lisp
-[ 71%] [34m[1mGenerating EusLisp code from abb_node/robot_SetSpeed.srv[0m
-[ 73%] [34m[1mGenerating C++ code from abb_node/robot_SetDIO.srv[0m
-[ 74%] [34m[1mGenerating EusLisp code from abb_node/robot_SpecialCommand.srv[0m
-[ 75%] [34m[1mGenerating C++ code from abb_node/robot_SetWorkObject.srv[0m
-[ 76%] [34m[1mGenerating C++ code from abb_node/robot_SetJoints.srv[0m
-[ 77%] [34m[1mGenerating EusLisp code from abb_node/robot_SetVacuum.srv[0m
-[ 77%] [34m[1mGenerating Python code from SRV abb_node/robot_IsMoving[0m
-[ 78%] [34m[1mGenerating C++ code from abb_node/robot_SetSpeed.srv[0m
-[ 79%] [34m[1mGenerating EusLisp code from abb_node/robot_IsMoving.srv[0m
-[ 79%] [34m[1mGenerating C++ code from abb_node/robot_SpecialCommand.srv[0m
-[ 80%] [34m[1mGenerating EusLisp code from abb_node/robot_Stop.srv[0m
-[ 82%] [34m[1mGenerating EusLisp code from abb_node/robot_GetJoints.srv[0m
-[ 82%] [34m[1mGenerating Python code from SRV abb_node/robot_Stop[0m
-[ 83%] [34m[1mGenerating C++ code from abb_node/robot_SetVacuum.srv[0m
-[ 84%] [34m[1mGenerating C++ code from abb_node/robot_IsMoving.srv[0m
-[ 85%] [34m[1mGenerating EusLisp code from abb_node/robot_SetTool.srv[0m
-[ 86%] [34m[1mGenerating Python code from SRV abb_node/robot_GetJoints[0m
-[ 87%] [34m[1mGenerating EusLisp code from abb_node/robot_GetCartesian.srv[0m
-[ 88%] [34m[1mGenerating Python code from SRV abb_node/robot_SetTool[0m
-[ 89%] [34m[1mGenerating EusLisp manifest code for abb_node[0m
-[ 91%] [34m[1mGenerating Python code from SRV abb_node/robot_GetCartesian[0m
-[ 92%] [34m[1mGenerating C++ code from abb_node/robot_Stop.srv[0m
-WARNING: Package name "abb_HW_interface" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
-[ 93%] [34m[1mGenerating C++ code from abb_node/robot_GetJoints.srv[0m
+[ 52%] [34m[1mGenerating C++ code from abb_node/robot_SetTrackDist.srv[0m
+[ 53%] [34m[1mGenerating EusLisp code from abb_node/robot_SetZone.srv[0m
+[ 55%] [34m[1mGenerating Lisp code from abb_node/robot_Stop.srv[0m
+[ 55%] Built target RobotMath
+[ 56%] [34m[1mGenerating Python code from SRV abb_node/robot_SetSpeed[0m
+[ 57%] [34m[1mGenerating Lisp code from abb_node/robot_GetJoints.srv[0m
+[ 58%] [34m[1mGenerating Python code from SRV abb_node/robot_SpecialCommand[0m
+[ 59%] [34m[1mGenerating EusLisp code from abb_node/robot_SetDIO.srv[0m
+[ 60%] [34m[1mGenerating C++ code from abb_node/robot_SetComm.srv[0m
+[ 61%] [34m[1mGenerating Lisp code from abb_node/robot_SetTool.srv[0m
+[ 62%] [34m[1mGenerating C++ code from abb_node/robot_SetCartesian.srv[0m
+[ 64%] [34m[1mGenerating C++ code from abb_node/robot_SetZone.srv[0m
+[ 65%] [34m[1mGenerating EusLisp code from abb_node/robot_SetWorkObject.srv[0m
+[ 67%] [34m[1mGenerating Lisp code from abb_node/robot_GetCartesian.srv[0m
+[ 67%] [34m[1mGenerating C++ code from abb_node/robot_Ping.srv[0m
+[ 68%] [34m[1mGenerating Python code from SRV abb_node/robot_SetVacuum[0m
+[ 69%] [34m[1mGenerating EusLisp code from abb_node/robot_SetJoints.srv[0m
+[ 69%] Built target abb_node_generate_messages_lisp
+[ 70%] [34m[1mGenerating C++ code from abb_node/robot_SetDIO.srv[0m
+[ 71%] [34m[1mGenerating C++ code from abb_node/robot_SetWorkObject.srv[0m
+[ 73%] [34m[1mGenerating C++ code from abb_node/robot_SetJoints.srv[0m
+[ 74%] [34m[1mGenerating EusLisp code from abb_node/robot_SetSpeed.srv[0m
+[ 74%] [34m[1mGenerating Python code from SRV abb_node/robot_IsMoving[0m
+[ 75%] [34m[1mGenerating C++ code from abb_node/robot_SetSpeed.srv[0m
+[ 75%] [34m[1mGenerating C++ code from abb_node/robot_SpecialCommand.srv[0m
+[ 76%] [34m[1mGenerating EusLisp code from abb_node/robot_SpecialCommand.srv[0m
+[ 77%] [34m[1mGenerating C++ code from abb_node/robot_SetVacuum.srv[0m
+[ 78%] [34m[1mGenerating EusLisp code from abb_node/robot_SetVacuum.srv[0m
+[ 78%] [34m[1mGenerating Python code from SRV abb_node/robot_Stop[0m
+[ 79%] [34m[1mGenerating Python code from SRV abb_node/robot_GetJoints[0m
+[ 80%] [34m[1mGenerating C++ code from abb_node/robot_IsMoving.srv[0m
+[ 82%] [34m[1mGenerating EusLisp code from abb_node/robot_IsMoving.srv[0m
+[ 83%] [34m[1mGenerating C++ code from abb_node/robot_Stop.srv[0m
+[ 84%] [34m[1mGenerating EusLisp code from abb_node/robot_Stop.srv[0m
+[ 85%] [34m[1mGenerating EusLisp code from abb_node/robot_GetJoints.srv[0m
+[ 86%] [34m[1mGenerating C++ code from abb_node/robot_GetJoints.srv[0m
+[ 87%] [34m[1mGenerating EusLisp code from abb_node/robot_SetTool.srv[0m
+[ 88%] [32m[1mLinking CXX shared library /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/lib/libRobotSim.so[0m
+[ 89%] [32mBuilding CXX object CMakeFiles/abb_node_moveit.dir/src/abb_node_moveit.cpp.o[0m
+[ 91%] [34m[1mGenerating Python code from SRV abb_node/robot_SetTool[0m
+[ 92%] [34m[1mGenerating Python code from SRV abb_node/robot_GetCartesian[0m
 [ 94%] [34m[1mGenerating C++ code from abb_node/robot_SetTool.srv[0m
-[ 94%] [34m[1mGenerating C++ code from abb_node/robot_GetCartesian.srv[0m
-[ 95%] [34m[1mGenerating Python srv __init__.py for abb_node[0m
-[ 95%] Built target abb_node_generate_messages_py
-[ 96%] [32m[1mLinking CXX shared library /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/.private/abb_node/lib/libRobotSim.so[0m
+[ 94%] [34m[1mGenerating EusLisp code from abb_node/robot_GetCartesian.srv[0m
+[ 94%] Built target RobotSim
+[ 95%] [34m[1mGenerating EusLisp manifest code for abb_node[0m
+[ 95%] [34m[1mGenerating C++ code from abb_node/robot_GetCartesian.srv[0m
+[ 96%] [32mBuilding CXX object CMakeFiles/abb_node.dir/src/abb_node.cpp.o[0m
+[ 97%] [34m[1mGenerating Python srv __init__.py for abb_node[0m
 WARNING: Package name "abb_HW_interface" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
-[ 96%] Built target abb_node_generate_messages_cpp
-[ 96%] Built target RobotSim
-[ 97%] [32mBuilding CXX object CMakeFiles/abb_node.dir/src/abb_node.cpp.o[0m
+[ 97%] Built target abb_node_generate_messages_py
+[ 97%] Built target abb_node_generate_messages_cpp
+WARNING: Package name "abb_HW_interface" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
 [ 97%] Built target abb_node_generate_messages_eus
 [ 97%] Built target abb_node_generate_messages
 [01m[K/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/src/abb_node/src/abb_node.cpp:[m[K In member function ‘[01m[Kvoid RobotController::logCallback(const ros::TimerEvent&)[m[K’:
@@ -157,7 +157,7 @@ WARNING: Package name "abb_HW_interface" does not follow the naming conventions.
 [01m[K/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/src/abb_node/src/abb_node.cpp:1555:38:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%lf[m[K’ expects argument of type ‘[01m[Kdouble*[m[K’, but argument 5 has type ‘[01m[Kchar*[m[K’ [[01;35m[K-Wformat=[m[K]
 [01m[K/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/src/abb_node/src/abb_node.cpp:1555:38:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%lf[m[K’ expects argument of type ‘[01m[Kdouble*[m[K’, but argument 6 has type ‘[01m[Kdouble[m[K’ [[01;35m[K-Wformat=[m[K]
 [01m[K/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/src/abb_node/src/abb_node.cpp:1555:38:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K-Wformat-extra-args[m[K]
-[ 98%] [32m[1mLinking CXX executable /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/.private/abb_node/lib/abb_node/robot_state[0m
+[ 98%] [32m[1mLinking CXX executable /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/lib/abb_node/robot_state[0m
 [ 98%] Built target abb_node_moveit
-[100%] [32m[1mLinking CXX executable /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/.private/abb_node/lib/abb_node/abb_node[0m
+[100%] [32m[1mLinking CXX executable /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/lib/abb_node/abb_node[0m
 [100%] Built target abb_node

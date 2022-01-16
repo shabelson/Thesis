@@ -2,5 +2,5 @@
 [ 40%] [32mBuilding CXX object CMakeFiles/industrial_trajectory_filters.dir/src/uniform_sample_filter.cpp.o[0m
 [ 60%] [32mBuilding CXX object CMakeFiles/industrial_trajectory_filters.dir/src/add_smoothing_filter.cpp.o[0m
 [ 80%] [32mBuilding CXX object CMakeFiles/industrial_trajectory_filters.dir/src/smoothing_trajectory_filter.cpp.o[0m
-[100%] [32m[1mLinking CXX shared library /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/.private/industrial_trajectory_filters/lib/libindustrial_trajectory_filters.so[0m
+[100%] [32m[1mLinking CXX shared library /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/lib/libindustrial_trajectory_filters.so[0m
 [100%] Built target industrial_trajectory_filters
