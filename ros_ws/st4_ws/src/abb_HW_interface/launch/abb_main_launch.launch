@@ -4,8 +4,6 @@
  <!-- RVIZ  -->
 
     <!-- Load the URDF to the parameter server -->
-  <!--param name="robot_description" textfile="$(find abb_irb120_support)/urdf/irb120_3_58.urdf"/-->
-    <!-- Load updated joint limits (override information from URDF) -->
 
     <group ns="robot_description_planning">
       <rosparam command="load" file="$(find abb_irb120_moveit_config)/config/joint_limits.yaml"/>

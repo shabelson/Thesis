@@ -26,9 +26,9 @@
     </link>
 
 
-<joint type="fixed" name="${prefix}tool0_to_cam">
+<joint type="fixed" name="${prefix}table_to_cam">
     <origin xyz="0 0 0" rpy="0 0 0"/>
-    <parent link="${prefix}tool0"/>
+    <parent link="${prefix}table_link"/>
     <child link="${prefix}camera_body_link"/>
     </joint>
 
@@ -38,14 +38,7 @@
     <child link="${prefix}camera_link"/>
     </joint>
 
-<joint type="fixed" name="${prefix}cam_to_base_link">
-        <origin xyz="-0.8 0 0" rpy="0 ${-pi*0.5} 0"/>
-        <parent link="${prefix}camera_link"/>
-        <child link="${prefix}base_link"/>
-        </joint>
 
-
-<link name="${prefix}base_link"/>
 <link name="${prefix}camera_link"/>
  </xacro:macro>
 </robot>
