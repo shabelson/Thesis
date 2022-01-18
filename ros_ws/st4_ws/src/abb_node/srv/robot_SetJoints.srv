@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 # Service to Set Joints
 float64[] position
 
 ---
 int64 ret
+=======
+# Service to Set Joints
+float64[] position
+
+---
+int64 ret
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
 string msg

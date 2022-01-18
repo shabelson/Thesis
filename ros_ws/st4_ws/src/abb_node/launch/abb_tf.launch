@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <launch>
 <arg name="sim"/>
   <group>
@@ -10,3 +11,17 @@
   </group>
 
 </launch>
+=======
+<launch>
+<arg name="sim"/>
+  <group>
+    <rosparam command="load" file="$(find abb_node)/launch/robot_params.yaml"/>
+
+
+    <node pkg="abb_node" type="abb_node" name="abb_node" output="screen">
+        <param name="/sim" value="$(arg sim)"/>
+    </node>
+  </group>
+
+</launch>
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
