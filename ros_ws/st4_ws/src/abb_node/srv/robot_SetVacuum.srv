@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 #Service to set vacuum on/off
 
 int64 vacuum  #1-on; 0-off
 ---
 int64 ret
+=======
+#Service to set vacuum on/off
+
+int64 vacuum  #1-on; 0-off
+---
+int64 ret
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
 string msg

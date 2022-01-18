@@ -213,6 +213,7 @@
 (setf (get abb_node::robot_SpecialCommandRequest :md5sum-) "dd470c01f667d001d212037b2fe2c918")
 (setf (get abb_node::robot_SpecialCommandRequest :datatype-) "abb_node/robot_SpecialCommandRequest")
 (setf (get abb_node::robot_SpecialCommandRequest :definition-)
+<<<<<<< HEAD
       "#Service to run spcial command
 
 int64 command  #integer identificating the command to run
@@ -224,12 +225,26 @@ float64 param5 #Special purpose parameter number 5
 ---
 int64 ret
 string msg
+=======
+      "#Service to run spcial command
+
+int64 command  #integer identificating the command to run
+float64 param1 #Special purpose parameter number 1
+float64 param2 #Special purpose parameter number 2
+float64 param3 #Special purpose parameter number 3
+float64 param4 #Special purpose parameter number 4
+float64 param5 #Special purpose parameter number 5
+---
+int64 ret
+string msg
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
 
 ")
 
 (setf (get abb_node::robot_SpecialCommandResponse :md5sum-) "dd470c01f667d001d212037b2fe2c918")
 (setf (get abb_node::robot_SpecialCommandResponse :datatype-) "abb_node/robot_SpecialCommandResponse")
 (setf (get abb_node::robot_SpecialCommandResponse :definition-)
+<<<<<<< HEAD
       "#Service to run spcial command
 
 int64 command  #integer identificating the command to run
@@ -241,6 +256,19 @@ float64 param5 #Special purpose parameter number 5
 ---
 int64 ret
 string msg
+=======
+      "#Service to run spcial command
+
+int64 command  #integer identificating the command to run
+float64 param1 #Special purpose parameter number 1
+float64 param2 #Special purpose parameter number 2
+float64 param3 #Special purpose parameter number 3
+float64 param4 #Special purpose parameter number 4
+float64 param5 #Special purpose parameter number 5
+---
+int64 ret
+string msg
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
 
 ")
 

@@ -146,22 +146,38 @@
 (setf (get abb_node::robot_SetJointsRequest :md5sum-) "23982c479cd3fc1d1b9c7ca9addbaa85")
 (setf (get abb_node::robot_SetJointsRequest :datatype-) "abb_node/robot_SetJointsRequest")
 (setf (get abb_node::robot_SetJointsRequest :definition-)
+<<<<<<< HEAD
       "# Service to Set Joints
 float64[] position
 
 ---
 int64 ret
+=======
+      "# Service to Set Joints
+float64[] position
+
+---
+int64 ret
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
 string msg
 ")
 
 (setf (get abb_node::robot_SetJointsResponse :md5sum-) "23982c479cd3fc1d1b9c7ca9addbaa85")
 (setf (get abb_node::robot_SetJointsResponse :datatype-) "abb_node/robot_SetJointsResponse")
 (setf (get abb_node::robot_SetJointsResponse :definition-)
+<<<<<<< HEAD
       "# Service to Set Joints
 float64[] position
 
 ---
 int64 ret
+=======
+      "# Service to Set Joints
+float64[] position
+
+---
+int64 ret
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
 string msg
 ")
 

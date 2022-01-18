@@ -149,6 +149,7 @@
 (setf (get abb_node::robot_SetTrackDistRequest :md5sum-) "eb267eb8369d9c3a686d934285ba7a11")
 (setf (get abb_node::robot_SetTrackDistRequest :datatype-) "abb_node/robot_SetTrackDistRequest")
 (setf (get abb_node::robot_SetTrackDistRequest :definition-)
+<<<<<<< HEAD
       "# Service to Set the tracking distance of the robot while in non-blocking mode
 
 float64 pos_dist  # mm
@@ -156,12 +157,22 @@ float64 ang_dist  # deg
 ---
 int64 ret
 string msg
+=======
+      "# Service to Set the tracking distance of the robot while in non-blocking mode
+
+float64 pos_dist  # mm
+float64 ang_dist  # deg
+---
+int64 ret
+string msg
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
 
 ")
 
 (setf (get abb_node::robot_SetTrackDistResponse :md5sum-) "eb267eb8369d9c3a686d934285ba7a11")
 (setf (get abb_node::robot_SetTrackDistResponse :datatype-) "abb_node/robot_SetTrackDistResponse")
 (setf (get abb_node::robot_SetTrackDistResponse :definition-)
+<<<<<<< HEAD
       "# Service to Set the tracking distance of the robot while in non-blocking mode
 
 float64 pos_dist  # mm
@@ -169,6 +180,15 @@ float64 ang_dist  # deg
 ---
 int64 ret
 string msg
+=======
+      "# Service to Set the tracking distance of the robot while in non-blocking mode
+
+float64 pos_dist  # mm
+float64 ang_dist  # deg
+---
+int64 ret
+string msg
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
 
 ")
 

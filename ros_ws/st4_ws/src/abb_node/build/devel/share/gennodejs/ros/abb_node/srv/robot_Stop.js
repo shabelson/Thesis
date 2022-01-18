@@ -55,8 +55,13 @@ class robot_StopRequest {
   static messageDefinition() {
     // Returns full string definition for message
     return `
+<<<<<<< HEAD
     #Service to Stop the robot
     
+=======
+    #Service to Stop the robot
+    
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
     
     `;
   }
@@ -133,7 +138,11 @@ class robot_StopResponse {
   static messageDefinition() {
     // Returns full string definition for message
     return `
+<<<<<<< HEAD
     int64 ret
+=======
+    int64 ret
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
     string msg
     
     `;

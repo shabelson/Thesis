@@ -204,6 +204,7 @@
 (setf (get abb_node::robot_SetWorkObjectRequest :md5sum-) "13716a3f1e232bc5200a276031ef97c2")
 (setf (get abb_node::robot_SetWorkObjectRequest :datatype-) "abb_node/robot_SetWorkObjectRequest")
 (setf (get abb_node::robot_SetWorkObjectRequest :definition-)
+<<<<<<< HEAD
       "# Service to Set the Work Object of the robot
 
 float64 x
@@ -216,12 +217,27 @@ float64 qz
 ---
 int64 ret
 string msg
+=======
+      "# Service to Set the Work Object of the robot
+
+float64 x
+float64 y
+float64 z
+float64 q0
+float64 qx
+float64 qy
+float64 qz
+---
+int64 ret
+string msg
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
 
 ")
 
 (setf (get abb_node::robot_SetWorkObjectResponse :md5sum-) "13716a3f1e232bc5200a276031ef97c2")
 (setf (get abb_node::robot_SetWorkObjectResponse :datatype-) "abb_node/robot_SetWorkObjectResponse")
 (setf (get abb_node::robot_SetWorkObjectResponse :definition-)
+<<<<<<< HEAD
       "# Service to Set the Work Object of the robot
 
 float64 x
@@ -234,6 +250,20 @@ float64 qz
 ---
 int64 ret
 string msg
+=======
+      "# Service to Set the Work Object of the robot
+
+float64 x
+float64 y
+float64 z
+float64 q0
+float64 qx
+float64 qy
+float64 qz
+---
+int64 ret
+string msg
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
 
 ")
 

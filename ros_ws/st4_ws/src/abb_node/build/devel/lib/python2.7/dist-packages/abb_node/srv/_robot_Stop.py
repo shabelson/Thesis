@@ -11,8 +11,13 @@ class robot_StopRequest(genpy.Message):
   _md5sum = "d41d8cd98f00b204e9800998ecf8427e"
   _type = "abb_node/robot_StopRequest"
   _has_header = False  # flag to mark the presence of a Header object
+<<<<<<< HEAD
   _full_text = """#Service to Stop the robot
 
+=======
+  _full_text = """#Service to Stop the robot
+
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
 """
   __slots__ = []
   _slot_types = []
@@ -106,7 +111,11 @@ class robot_StopResponse(genpy.Message):
   _md5sum = "1e32786be6359fbbb6259aee4f579d10"
   _type = "abb_node/robot_StopResponse"
   _has_header = False  # flag to mark the presence of a Header object
+<<<<<<< HEAD
   _full_text = """int64 ret
+=======
+  _full_text = """int64 ret
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
 string msg
 """
   __slots__ = ['ret','msg']

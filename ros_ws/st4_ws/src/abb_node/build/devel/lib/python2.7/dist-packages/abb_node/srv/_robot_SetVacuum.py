@@ -11,9 +11,15 @@ class robot_SetVacuumRequest(genpy.Message):
   _md5sum = "6ee7741d1da0c9620d77add3d4997c2d"
   _type = "abb_node/robot_SetVacuumRequest"
   _has_header = False  # flag to mark the presence of a Header object
+<<<<<<< HEAD
   _full_text = """#Service to set vacuum on/off
 
 int64 vacuum  #1-on; 0-off
+=======
+  _full_text = """#Service to set vacuum on/off
+
+int64 vacuum  #1-on; 0-off
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
 """
   __slots__ = ['vacuum']
   _slot_types = ['int64']
@@ -126,7 +132,11 @@ class robot_SetVacuumResponse(genpy.Message):
   _md5sum = "1e32786be6359fbbb6259aee4f579d10"
   _type = "abb_node/robot_SetVacuumResponse"
   _has_header = False  # flag to mark the presence of a Header object
+<<<<<<< HEAD
   _full_text = """int64 ret
+=======
+  _full_text = """int64 ret
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
 string msg
 """
   __slots__ = ['ret','msg']

@@ -149,6 +149,7 @@
 (setf (get abb_node::robot_SetSpeedRequest :md5sum-) "333d89e728aabc050c209d2cd3cd6dc2")
 (setf (get abb_node::robot_SetSpeedRequest :datatype-) "abb_node/robot_SetSpeedRequest")
 (setf (get abb_node::robot_SetSpeedRequest :definition-)
+<<<<<<< HEAD
       "# Service to Set the max Speed of the robot.
 
 float64 tcp  # mm/s
@@ -156,12 +157,22 @@ float64 ori  # deg/s
 ---
 int64 ret
 string msg
+=======
+      "# Service to Set the max Speed of the robot.
+
+float64 tcp  # mm/s
+float64 ori  # deg/s
+---
+int64 ret
+string msg
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
 
 ")
 
 (setf (get abb_node::robot_SetSpeedResponse :md5sum-) "333d89e728aabc050c209d2cd3cd6dc2")
 (setf (get abb_node::robot_SetSpeedResponse :datatype-) "abb_node/robot_SetSpeedResponse")
 (setf (get abb_node::robot_SetSpeedResponse :definition-)
+<<<<<<< HEAD
       "# Service to Set the max Speed of the robot.
 
 float64 tcp  # mm/s
@@ -169,6 +180,15 @@ float64 ori  # deg/s
 ---
 int64 ret
 string msg
+=======
+      "# Service to Set the max Speed of the robot.
+
+float64 tcp  # mm/s
+float64 ori  # deg/s
+---
+int64 ret
+string msg
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
 
 ")
 

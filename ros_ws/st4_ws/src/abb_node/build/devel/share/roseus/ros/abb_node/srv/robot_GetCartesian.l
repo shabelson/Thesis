@@ -205,6 +205,7 @@
 (setf (get abb_node::robot_GetCartesianRequest :md5sum-) "3f432c2b24231bfa1982c3d95599d931")
 (setf (get abb_node::robot_GetCartesianRequest :datatype-) "abb_node/robot_GetCartesianRequest")
 (setf (get abb_node::robot_GetCartesianRequest :definition-)
+<<<<<<< HEAD
       "# Service to get the cartesian position of the robot
 
 ---
@@ -216,12 +217,26 @@ float64 qx
 float64 qy
 float64 qz
 int64 ret
+=======
+      "# Service to get the cartesian position of the robot
+
+---
+float64 x
+float64 y
+float64 z
+float64 q0
+float64 qx
+float64 qy
+float64 qz
+int64 ret
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
 string msg
 ")
 
 (setf (get abb_node::robot_GetCartesianResponse :md5sum-) "3f432c2b24231bfa1982c3d95599d931")
 (setf (get abb_node::robot_GetCartesianResponse :datatype-) "abb_node/robot_GetCartesianResponse")
 (setf (get abb_node::robot_GetCartesianResponse :definition-)
+<<<<<<< HEAD
       "# Service to get the cartesian position of the robot
 
 ---
@@ -233,6 +248,19 @@ float64 qx
 float64 qy
 float64 qz
 int64 ret
+=======
+      "# Service to get the cartesian position of the robot
+
+---
+float64 x
+float64 y
+float64 z
+float64 q0
+float64 qx
+float64 qy
+float64 qz
+int64 ret
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
 string msg
 ")
 

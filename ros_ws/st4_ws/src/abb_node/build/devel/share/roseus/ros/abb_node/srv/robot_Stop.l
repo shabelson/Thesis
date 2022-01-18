@@ -128,20 +128,34 @@
 (setf (get abb_node::robot_StopRequest :md5sum-) "1e32786be6359fbbb6259aee4f579d10")
 (setf (get abb_node::robot_StopRequest :datatype-) "abb_node/robot_StopRequest")
 (setf (get abb_node::robot_StopRequest :definition-)
+<<<<<<< HEAD
       "#Service to Stop the robot
 
 ---
 int64 ret
+=======
+      "#Service to Stop the robot
+
+---
+int64 ret
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
 string msg
 ")
 
 (setf (get abb_node::robot_StopResponse :md5sum-) "1e32786be6359fbbb6259aee4f579d10")
 (setf (get abb_node::robot_StopResponse :datatype-) "abb_node/robot_StopResponse")
 (setf (get abb_node::robot_StopResponse :definition-)
+<<<<<<< HEAD
       "#Service to Stop the robot
 
 ---
 int64 ret
+=======
+      "#Service to Stop the robot
+
+---
+int64 ret
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
 string msg
 ")
 

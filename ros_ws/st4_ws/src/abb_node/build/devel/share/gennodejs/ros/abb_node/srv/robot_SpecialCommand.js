@@ -121,6 +121,7 @@ class robot_SpecialCommandRequest {
   static messageDefinition() {
     // Returns full string definition for message
     return `
+<<<<<<< HEAD
     #Service to run spcial command
     
     int64 command  #integer identificating the command to run
@@ -129,6 +130,16 @@ class robot_SpecialCommandRequest {
     float64 param3 #Special purpose parameter number 3
     float64 param4 #Special purpose parameter number 4
     float64 param5 #Special purpose parameter number 5
+=======
+    #Service to run spcial command
+    
+    int64 command  #integer identificating the command to run
+    float64 param1 #Special purpose parameter number 1
+    float64 param2 #Special purpose parameter number 2
+    float64 param3 #Special purpose parameter number 3
+    float64 param4 #Special purpose parameter number 4
+    float64 param5 #Special purpose parameter number 5
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
     
     `;
   }
@@ -247,8 +258,13 @@ class robot_SpecialCommandResponse {
   static messageDefinition() {
     // Returns full string definition for message
     return `
+<<<<<<< HEAD
     int64 ret
     string msg
+=======
+    int64 ret
+    string msg
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
     
     
     `;

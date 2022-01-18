@@ -169,22 +169,38 @@
 (setf (get abb_node::robot_SetDIORequest :md5sum-) "40fbf43c0c353da283e0c44b43ee102f")
 (setf (get abb_node::robot_SetDIORequest :datatype-) "abb_node/robot_SetDIORequest")
 (setf (get abb_node::robot_SetDIORequest :definition-)
+<<<<<<< HEAD
       "#Service to set digital outputs on/off
 int64 DIO_num  #digital IO number
 bool state  #1-on; 0-off
 ---
 int64 ret
+=======
+      "#Service to set digital outputs on/off
+int64 DIO_num  #digital IO number
+bool state  #1-on; 0-off
+---
+int64 ret
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
 string msg
 ")
 
 (setf (get abb_node::robot_SetDIOResponse :md5sum-) "40fbf43c0c353da283e0c44b43ee102f")
 (setf (get abb_node::robot_SetDIOResponse :datatype-) "abb_node/robot_SetDIOResponse")
 (setf (get abb_node::robot_SetDIOResponse :definition-)
+<<<<<<< HEAD
       "#Service to set digital outputs on/off
 int64 DIO_num  #digital IO number
 bool state  #1-on; 0-off
 ---
 int64 ret
+=======
+      "#Service to set digital outputs on/off
+int64 DIO_num  #digital IO number
+bool state  #1-on; 0-off
+---
+int64 ret
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
 string msg
 ")
 

@@ -11,9 +11,15 @@ class robot_SetJointsRequest(genpy.Message):
   _md5sum = "50410efb3480c63b23b8b5fe2bea331a"
   _type = "abb_node/robot_SetJointsRequest"
   _has_header = False  # flag to mark the presence of a Header object
+<<<<<<< HEAD
   _full_text = """# Service to Set Joints
 float64[] position
 
+=======
+  _full_text = """# Service to Set Joints
+float64[] position
+
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
 """
   __slots__ = ['position']
   _slot_types = ['float64[]']
@@ -134,7 +140,11 @@ class robot_SetJointsResponse(genpy.Message):
   _md5sum = "1e32786be6359fbbb6259aee4f579d10"
   _type = "abb_node/robot_SetJointsResponse"
   _has_header = False  # flag to mark the presence of a Header object
+<<<<<<< HEAD
   _full_text = """int64 ret
+=======
+  _full_text = """int64 ret
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
 string msg
 """
   __slots__ = ['ret','msg']

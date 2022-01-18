@@ -55,8 +55,13 @@ class robot_GetCartesianRequest {
   static messageDefinition() {
     // Returns full string definition for message
     return `
+<<<<<<< HEAD
     # Service to get the cartesian position of the robot
     
+=======
+    # Service to get the cartesian position of the robot
+    
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
     
     `;
   }
@@ -210,6 +215,7 @@ class robot_GetCartesianResponse {
   static messageDefinition() {
     // Returns full string definition for message
     return `
+<<<<<<< HEAD
     float64 x
     float64 y
     float64 z
@@ -218,6 +224,16 @@ class robot_GetCartesianResponse {
     float64 qy
     float64 qz
     int64 ret
+=======
+    float64 x
+    float64 y
+    float64 z
+    float64 q0
+    float64 qx
+    float64 qy
+    float64 qz
+    int64 ret
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
     string msg
     
     `;

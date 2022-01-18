@@ -1,0 +1,5 @@
+Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/share/abb_HW_interface/cmake/abb_HW_interfaceConfig.cmake
+Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/share/abb_HW_interface/cmake/abb_HW_interfaceConfig-version.cmake
+Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/lib/abb_HW_interface/abb_hw_main
+Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/lib/abb_HW_interface/abb_keyboard
+Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/lib/pkgconfig/abb_HW_interface.pc

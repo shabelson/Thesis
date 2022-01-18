@@ -11,8 +11,13 @@ class robot_GetCartesianRequest(genpy.Message):
   _md5sum = "d41d8cd98f00b204e9800998ecf8427e"
   _type = "abb_node/robot_GetCartesianRequest"
   _has_header = False  # flag to mark the presence of a Header object
+<<<<<<< HEAD
   _full_text = """# Service to get the cartesian position of the robot
 
+=======
+  _full_text = """# Service to get the cartesian position of the robot
+
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
 """
   __slots__ = []
   _slot_types = []
@@ -106,6 +111,7 @@ class robot_GetCartesianResponse(genpy.Message):
   _md5sum = "3f432c2b24231bfa1982c3d95599d931"
   _type = "abb_node/robot_GetCartesianResponse"
   _has_header = False  # flag to mark the presence of a Header object
+<<<<<<< HEAD
   _full_text = """float64 x
 float64 y
 float64 z
@@ -114,6 +120,16 @@ float64 qx
 float64 qy
 float64 qz
 int64 ret
+=======
+  _full_text = """float64 x
+float64 y
+float64 z
+float64 q0
+float64 qx
+float64 qy
+float64 qz
+int64 ret
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
 string msg
 """
   __slots__ = ['x','y','z','q0','qx','qy','qz','ret','msg']

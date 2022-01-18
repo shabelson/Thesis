@@ -11,10 +11,17 @@ class robot_SetSpeedRequest(genpy.Message):
   _md5sum = "9f0ff1193cfb3499a7608d4091f40f93"
   _type = "abb_node/robot_SetSpeedRequest"
   _has_header = False  # flag to mark the presence of a Header object
+<<<<<<< HEAD
   _full_text = """# Service to Set the max Speed of the robot.
 
 float64 tcp  # mm/s
 float64 ori  # deg/s
+=======
+  _full_text = """# Service to Set the max Speed of the robot.
+
+float64 tcp  # mm/s
+float64 ori  # deg/s
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
 """
   __slots__ = ['tcp','ori']
   _slot_types = ['float64','float64']
@@ -132,8 +139,13 @@ class robot_SetSpeedResponse(genpy.Message):
   _md5sum = "1e32786be6359fbbb6259aee4f579d10"
   _type = "abb_node/robot_SetSpeedResponse"
   _has_header = False  # flag to mark the presence of a Header object
+<<<<<<< HEAD
   _full_text = """int64 ret
 string msg
+=======
+  _full_text = """int64 ret
+string msg
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
 
 """
   __slots__ = ['ret','msg']

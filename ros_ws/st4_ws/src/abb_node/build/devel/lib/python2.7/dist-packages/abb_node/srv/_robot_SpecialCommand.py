@@ -11,6 +11,7 @@ class robot_SpecialCommandRequest(genpy.Message):
   _md5sum = "35641a14d68eae4e3f43fd2e5282cc04"
   _type = "abb_node/robot_SpecialCommandRequest"
   _has_header = False  # flag to mark the presence of a Header object
+<<<<<<< HEAD
   _full_text = """#Service to run spcial command
 
 int64 command  #integer identificating the command to run
@@ -19,6 +20,16 @@ float64 param2 #Special purpose parameter number 2
 float64 param3 #Special purpose parameter number 3
 float64 param4 #Special purpose parameter number 4
 float64 param5 #Special purpose parameter number 5
+=======
+  _full_text = """#Service to run spcial command
+
+int64 command  #integer identificating the command to run
+float64 param1 #Special purpose parameter number 1
+float64 param2 #Special purpose parameter number 2
+float64 param3 #Special purpose parameter number 3
+float64 param4 #Special purpose parameter number 4
+float64 param5 #Special purpose parameter number 5
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
 """
   __slots__ = ['command','param1','param2','param3','param4','param5']
   _slot_types = ['int64','float64','float64','float64','float64','float64']
@@ -148,8 +159,13 @@ class robot_SpecialCommandResponse(genpy.Message):
   _md5sum = "1e32786be6359fbbb6259aee4f579d10"
   _type = "abb_node/robot_SpecialCommandResponse"
   _has_header = False  # flag to mark the presence of a Header object
+<<<<<<< HEAD
   _full_text = """int64 ret
 string msg
+=======
+  _full_text = """int64 ret
+string msg
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
 
 """
   __slots__ = ['ret','msg']

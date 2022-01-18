@@ -194,6 +194,7 @@
 (setf (get abb_node::robot_GetJointsRequest :md5sum-) "927b82d08077d046362055bd87d33b65")
 (setf (get abb_node::robot_GetJointsRequest :datatype-) "abb_node/robot_GetJointsRequest")
 (setf (get abb_node::robot_GetJointsRequest :definition-)
+<<<<<<< HEAD
       "# Service to get joint angles of the robot
 
 ---
@@ -204,12 +205,25 @@ float64 j4
 float64 j5
 float64 j6
 int64 ret
+=======
+      "# Service to get joint angles of the robot
+
+---
+float64 j1
+float64 j2
+float64 j3
+float64 j4
+float64 j5
+float64 j6
+int64 ret
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
 string msg
 ")
 
 (setf (get abb_node::robot_GetJointsResponse :md5sum-) "927b82d08077d046362055bd87d33b65")
 (setf (get abb_node::robot_GetJointsResponse :datatype-) "abb_node/robot_GetJointsResponse")
 (setf (get abb_node::robot_GetJointsResponse :definition-)
+<<<<<<< HEAD
       "# Service to get joint angles of the robot
 
 ---
@@ -220,6 +234,18 @@ float64 j4
 float64 j5
 float64 j6
 int64 ret
+=======
+      "# Service to get joint angles of the robot
+
+---
+float64 j1
+float64 j2
+float64 j3
+float64 j4
+float64 j5
+float64 j6
+int64 ret
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
 string msg
 ")
 

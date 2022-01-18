@@ -1,0 +1,9 @@
+Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/devel/share/scanner/cmake/scannerConfig.cmake
+Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/devel/share/scanner/cmake/scannerConfig-version.cmake
+Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/devel/lib/scanner/showRegResultOnline
+Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/devel/lib/scanner/camera_emulator
+Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/devel/lib/scanner/processor
+Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/devel/lib/scanner/pcl_processing
+Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/devel/lib/scanner/setup
+Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/devel/lib/scanner/rotation_dir
+Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/devel/lib/pkgconfig/scanner.pc

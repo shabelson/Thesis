@@ -1,0 +1,15 @@
+Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/share/ros_control_boilerplate/cmake/ros_control_boilerplateConfig-version.cmake
+Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/share/ros_control_boilerplate/cmake/ros_control_boilerplateConfig.cmake
+Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/lib/libsim_hw_interface.so
+Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/lib/libcontroller_to_csv.so
+Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/lib/libgeneric_hw_control_loop.so
+Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/lib/librrbot_hw_interface.so
+Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/lib/libgeneric_hw_interface.so
+Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/lib/libcsv_to_controller.so
+Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/lib/ros_control_boilerplate/sim_hw_main
+Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/lib/ros_control_boilerplate/test_trajectory
+Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/lib/ros_control_boilerplate/controller_to_csv_main
+Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/lib/ros_control_boilerplate/rrbot_hw_main
+Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/lib/ros_control_boilerplate/keyboard_teleop
+Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/lib/ros_control_boilerplate/csv_to_controller_main
+Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/lib/pkgconfig/ros_control_boilerplate.pc

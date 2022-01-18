@@ -66,9 +66,15 @@ class robot_SetCommRequest {
   static messageDefinition() {
     // Returns full string definition for message
     return `
+<<<<<<< HEAD
     #Service to set the communication mode of the robot
     
     int64 mode  #1-Blocking; 0-Nonblocking
+=======
+    #Service to set the communication mode of the robot
+    
+    int64 mode  #1-Blocking; 0-Nonblocking
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
     
     `;
   }
@@ -152,7 +158,11 @@ class robot_SetCommResponse {
   static messageDefinition() {
     // Returns full string definition for message
     return `
+<<<<<<< HEAD
     int64 ret
+=======
+    int64 ret
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
     string msg
     
     `;

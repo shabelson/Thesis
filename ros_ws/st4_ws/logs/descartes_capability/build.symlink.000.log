@@ -1,0 +1,4 @@
+Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/share/descartes_capability/cmake/descartes_capabilityConfig.cmake
+Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/share/descartes_capability/cmake/descartes_capabilityConfig-version.cmake
+Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/lib/libdescartes_capability.so
+Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/lib/pkgconfig/descartes_capability.pc

@@ -11,6 +11,7 @@ class robot_SetWorkObjectRequest(genpy.Message):
   _md5sum = "256392fa17e6514709500a65ddaf30e9"
   _type = "abb_node/robot_SetWorkObjectRequest"
   _has_header = False  # flag to mark the presence of a Header object
+<<<<<<< HEAD
   _full_text = """# Service to Set the Work Object of the robot
 
 float64 x
@@ -20,6 +21,17 @@ float64 q0
 float64 qx
 float64 qy
 float64 qz
+=======
+  _full_text = """# Service to Set the Work Object of the robot
+
+float64 x
+float64 y
+float64 z
+float64 q0
+float64 qx
+float64 qy
+float64 qz
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
 """
   __slots__ = ['x','y','z','q0','qx','qy','qz']
   _slot_types = ['float64','float64','float64','float64','float64','float64','float64']
@@ -152,8 +164,13 @@ class robot_SetWorkObjectResponse(genpy.Message):
   _md5sum = "1e32786be6359fbbb6259aee4f579d10"
   _type = "abb_node/robot_SetWorkObjectResponse"
   _has_header = False  # flag to mark the presence of a Header object
+<<<<<<< HEAD
   _full_text = """int64 ret
 string msg
+=======
+  _full_text = """int64 ret
+string msg
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
 
 """
   __slots__ = ['ret','msg']

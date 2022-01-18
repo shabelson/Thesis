@@ -1,0 +1,40 @@
+Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/devel/share/scanner/cmake/scannerConfig.cmake
+Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/devel/share/scanner/cmake/scannerConfig-version.cmake
+Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/devel/lib/scanner/showRegResultOnline
+Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/devel/lib/scanner/camera_emulator
+Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/devel/lib/scanner/processor
+Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/devel/lib/scanner/pcl_processing
+Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/devel/lib/scanner/setup
+Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/devel/lib/scanner/rotation_dir
+Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/devel/lib/pkgconfig/scanner.pc
+Cleaning: (/home/shabelson/ros_ws/turntable/devel/.private/scanner/cmake.lock, /home/shabelson/ros_ws/turntable/devel/./cmake.lock)
+Cleaning: (/home/shabelson/ros_ws/turntable/devel/.private/scanner/share/scanner/cmake/scannerConfig.cmake, /home/shabelson/ros_ws/turntable/devel/share/scanner/cmake/scannerConfig.cmake)
+Cleaning: (/home/shabelson/ros_ws/turntable/devel/.private/scanner/share/scanner/cmake/scannerConfig-version.cmake, /home/shabelson/ros_ws/turntable/devel/share/scanner/cmake/scannerConfig-version.cmake)
+Cleaning: (/home/shabelson/ros_ws/turntable/devel/.private/scanner/lib/scanner/showRegResultOnline, /home/shabelson/ros_ws/turntable/devel/lib/scanner/showRegResultOnline)
+Cleaning: (/home/shabelson/ros_ws/turntable/devel/.private/scanner/lib/scanner/camera_emulator, /home/shabelson/ros_ws/turntable/devel/lib/scanner/camera_emulator)
+Cleaning: (/home/shabelson/ros_ws/turntable/devel/.private/scanner/lib/scanner/kinect2_emulator, /home/shabelson/ros_ws/turntable/devel/lib/scanner/kinect2_emulator)
+Cleaning: (/home/shabelson/ros_ws/turntable/devel/.private/scanner/lib/scanner/processor, /home/shabelson/ros_ws/turntable/devel/lib/scanner/processor)
+Cleaning: (/home/shabelson/ros_ws/turntable/devel/.private/scanner/lib/scanner/pcl_processing, /home/shabelson/ros_ws/turntable/devel/lib/scanner/pcl_processing)
+Cleaning: (/home/shabelson/ros_ws/turntable/devel/.private/scanner/lib/scanner/setup, /home/shabelson/ros_ws/turntable/devel/lib/scanner/setup)
+Cleaning: (/home/shabelson/ros_ws/turntable/devel/.private/scanner/lib/scanner/rotation_dir, /home/shabelson/ros_ws/turntable/devel/lib/scanner/rotation_dir)
+Cleaning: (/home/shabelson/ros_ws/turntable/devel/.private/scanner/lib/pkgconfig/scanner.pc, /home/shabelson/ros_ws/turntable/devel/lib/pkgconfig/scanner.pc)
+Unlinking: /home/shabelson/ros_ws/turntable/devel/share/scanner/cmake/scannerConfig.cmake
+Already unlinked: {}
+Unlinking: /home/shabelson/ros_ws/turntable/devel/share/scanner/cmake/scannerConfig-version.cmake
+Already unlinked: {}
+Unlinking: /home/shabelson/ros_ws/turntable/devel/lib/scanner/showRegResultOnline
+Already unlinked: {}
+Unlinking: /home/shabelson/ros_ws/turntable/devel/lib/scanner/camera_emulator
+Already unlinked: {}
+Unlinking: /home/shabelson/ros_ws/turntable/devel/lib/scanner/kinect2_emulator
+Already unlinked: {}
+Unlinking: /home/shabelson/ros_ws/turntable/devel/lib/scanner/processor
+Already unlinked: {}
+Unlinking: /home/shabelson/ros_ws/turntable/devel/lib/scanner/pcl_processing
+Already unlinked: {}
+Unlinking: /home/shabelson/ros_ws/turntable/devel/lib/scanner/setup
+Already unlinked: {}
+Unlinking: /home/shabelson/ros_ws/turntable/devel/lib/scanner/rotation_dir
+Already unlinked: {}
+Unlinking: /home/shabelson/ros_ws/turntable/devel/lib/pkgconfig/scanner.pc
+Already unlinked: {}

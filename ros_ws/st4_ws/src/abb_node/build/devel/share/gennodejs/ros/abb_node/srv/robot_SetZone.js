@@ -66,6 +66,7 @@ class robot_SetZoneRequest {
   static messageDefinition() {
     // Returns full string definition for message
     return `
+<<<<<<< HEAD
     # Service to Set the Zone of the robot
     # Mode - Name in RAPID - Linear  - Orientation
     #   0        fine         0 mm        0°
@@ -75,6 +76,17 @@ class robot_SetZoneRequest {
     #   4         z10         10 mm       1.5°
     
     int64 mode
+=======
+    # Service to Set the Zone of the robot
+    # Mode - Name in RAPID - Linear  - Orientation
+    #   0        fine         0 mm        0°
+    #   1         z0          0.3 mm      0.03°  <- Default and recommended value.
+    #   2         z1          1 mm        0.1°
+    #   3         z5          5 mm        0.8°
+    #   4         z10         10 mm       1.5°
+    
+    int64 mode
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
     
     `;
   }
@@ -158,8 +170,13 @@ class robot_SetZoneResponse {
   static messageDefinition() {
     // Returns full string definition for message
     return `
+<<<<<<< HEAD
     int64 ret
     string msg
+=======
+    int64 ret
+    string msg
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
     
     
     `;

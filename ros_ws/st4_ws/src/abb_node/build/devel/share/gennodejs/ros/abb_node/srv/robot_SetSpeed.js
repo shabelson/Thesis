@@ -77,10 +77,17 @@ class robot_SetSpeedRequest {
   static messageDefinition() {
     // Returns full string definition for message
     return `
+<<<<<<< HEAD
     # Service to Set the max Speed of the robot.
     
     float64 tcp  # mm/s
     float64 ori  # deg/s
+=======
+    # Service to Set the max Speed of the robot.
+    
+    float64 tcp  # mm/s
+    float64 ori  # deg/s
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
     
     `;
   }
@@ -171,8 +178,13 @@ class robot_SetSpeedResponse {
   static messageDefinition() {
     // Returns full string definition for message
     return `
+<<<<<<< HEAD
     int64 ret
     string msg
+=======
+    int64 ret
+    string msg
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
     
     
     `;

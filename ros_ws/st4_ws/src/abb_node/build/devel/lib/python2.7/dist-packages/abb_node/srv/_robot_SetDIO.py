@@ -11,9 +11,15 @@ class robot_SetDIORequest(genpy.Message):
   _md5sum = "1fcb4d60ebcf186f13ef8f046ad3cace"
   _type = "abb_node/robot_SetDIORequest"
   _has_header = False  # flag to mark the presence of a Header object
+<<<<<<< HEAD
   _full_text = """#Service to set digital outputs on/off
 int64 DIO_num  #digital IO number
 bool state  #1-on; 0-off
+=======
+  _full_text = """#Service to set digital outputs on/off
+int64 DIO_num  #digital IO number
+bool state  #1-on; 0-off
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
 """
   __slots__ = ['DIO_num','state']
   _slot_types = ['int64','bool']
@@ -133,7 +139,11 @@ class robot_SetDIOResponse(genpy.Message):
   _md5sum = "1e32786be6359fbbb6259aee4f579d10"
   _type = "abb_node/robot_SetDIOResponse"
   _has_header = False  # flag to mark the presence of a Header object
+<<<<<<< HEAD
   _full_text = """int64 ret
+=======
+  _full_text = """int64 ret
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
 string msg
 """
   __slots__ = ['ret','msg']

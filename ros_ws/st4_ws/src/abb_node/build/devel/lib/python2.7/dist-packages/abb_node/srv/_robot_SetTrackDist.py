@@ -11,10 +11,17 @@ class robot_SetTrackDistRequest(genpy.Message):
   _md5sum = "83ebed908297f9c3e07ef540f9857ab1"
   _type = "abb_node/robot_SetTrackDistRequest"
   _has_header = False  # flag to mark the presence of a Header object
+<<<<<<< HEAD
   _full_text = """# Service to Set the tracking distance of the robot while in non-blocking mode
 
 float64 pos_dist  # mm
 float64 ang_dist  # deg
+=======
+  _full_text = """# Service to Set the tracking distance of the robot while in non-blocking mode
+
+float64 pos_dist  # mm
+float64 ang_dist  # deg
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
 """
   __slots__ = ['pos_dist','ang_dist']
   _slot_types = ['float64','float64']
@@ -132,8 +139,13 @@ class robot_SetTrackDistResponse(genpy.Message):
   _md5sum = "1e32786be6359fbbb6259aee4f579d10"
   _type = "abb_node/robot_SetTrackDistResponse"
   _has_header = False  # flag to mark the presence of a Header object
+<<<<<<< HEAD
   _full_text = """int64 ret
 string msg
+=======
+  _full_text = """int64 ret
+string msg
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
 
 """
   __slots__ = ['ret','msg']

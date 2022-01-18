@@ -128,20 +128,34 @@
 (setf (get abb_node::robot_PingRequest :md5sum-) "1e32786be6359fbbb6259aee4f579d10")
 (setf (get abb_node::robot_PingRequest :datatype-) "abb_node/robot_PingRequest")
 (setf (get abb_node::robot_PingRequest :definition-)
+<<<<<<< HEAD
       "#Service to Ping the robot
 ---
 int64 ret
 string msg
+=======
+      "#Service to Ping the robot
+---
+int64 ret
+string msg
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
 
 ")
 
 (setf (get abb_node::robot_PingResponse :md5sum-) "1e32786be6359fbbb6259aee4f579d10")
 (setf (get abb_node::robot_PingResponse :datatype-) "abb_node/robot_PingResponse")
 (setf (get abb_node::robot_PingResponse :definition-)
+<<<<<<< HEAD
       "#Service to Ping the robot
 ---
 int64 ret
 string msg
+=======
+      "#Service to Ping the robot
+---
+int64 ret
+string msg
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
 
 ")
 

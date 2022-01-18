@@ -66,9 +66,15 @@ class robot_SetVacuumRequest {
   static messageDefinition() {
     // Returns full string definition for message
     return `
+<<<<<<< HEAD
     #Service to set vacuum on/off
     
     int64 vacuum  #1-on; 0-off
+=======
+    #Service to set vacuum on/off
+    
+    int64 vacuum  #1-on; 0-off
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
     
     `;
   }
@@ -152,7 +158,11 @@ class robot_SetVacuumResponse {
   static messageDefinition() {
     // Returns full string definition for message
     return `
+<<<<<<< HEAD
     int64 ret
+=======
+    int64 ret
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
     string msg
     
     `;

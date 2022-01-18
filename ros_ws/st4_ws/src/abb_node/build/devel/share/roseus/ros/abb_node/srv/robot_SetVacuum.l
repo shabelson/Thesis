@@ -158,22 +158,38 @@
 (setf (get abb_node::robot_SetVacuumRequest :md5sum-) "bc2b2a4e5d5d788edc958a62cf84dc1f")
 (setf (get abb_node::robot_SetVacuumRequest :datatype-) "abb_node/robot_SetVacuumRequest")
 (setf (get abb_node::robot_SetVacuumRequest :definition-)
+<<<<<<< HEAD
       "#Service to set vacuum on/off
 
 int64 vacuum  #1-on; 0-off
 ---
 int64 ret
+=======
+      "#Service to set vacuum on/off
+
+int64 vacuum  #1-on; 0-off
+---
+int64 ret
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
 string msg
 ")
 
 (setf (get abb_node::robot_SetVacuumResponse :md5sum-) "bc2b2a4e5d5d788edc958a62cf84dc1f")
 (setf (get abb_node::robot_SetVacuumResponse :datatype-) "abb_node/robot_SetVacuumResponse")
 (setf (get abb_node::robot_SetVacuumResponse :definition-)
+<<<<<<< HEAD
       "#Service to set vacuum on/off
 
 int64 vacuum  #1-on; 0-off
 ---
 int64 ret
+=======
+      "#Service to set vacuum on/off
+
+int64 vacuum  #1-on; 0-off
+---
+int64 ret
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
 string msg
 ")
 

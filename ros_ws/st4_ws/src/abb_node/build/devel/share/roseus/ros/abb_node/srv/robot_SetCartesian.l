@@ -165,22 +165,38 @@
 (setf (get abb_node::robot_SetCartesianRequest :md5sum-) "4aa959d966f8a29fdd7f035d2997b10c")
 (setf (get abb_node::robot_SetCartesianRequest :datatype-) "abb_node/robot_SetCartesianRequest")
 (setf (get abb_node::robot_SetCartesianRequest :definition-)
+<<<<<<< HEAD
       "# Service to Set Cartesians
 float64[] cartesian
 float64[] quaternion
 ---
 int64 ret
+=======
+      "# Service to Set Cartesians
+float64[] cartesian
+float64[] quaternion
+---
+int64 ret
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
 string msg
 ")
 
 (setf (get abb_node::robot_SetCartesianResponse :md5sum-) "4aa959d966f8a29fdd7f035d2997b10c")
 (setf (get abb_node::robot_SetCartesianResponse :datatype-) "abb_node/robot_SetCartesianResponse")
 (setf (get abb_node::robot_SetCartesianResponse :definition-)
+<<<<<<< HEAD
       "# Service to Set Cartesians
 float64[] cartesian
 float64[] quaternion
 ---
 int64 ret
+=======
+      "# Service to Set Cartesians
+float64[] cartesian
+float64[] quaternion
+---
+int64 ret
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
 string msg
 ")
 

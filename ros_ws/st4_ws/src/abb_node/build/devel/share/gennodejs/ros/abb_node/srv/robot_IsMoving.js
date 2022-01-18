@@ -55,8 +55,13 @@ class robot_IsMovingRequest {
   static messageDefinition() {
     // Returns full string definition for message
     return `
+<<<<<<< HEAD
     # Service to get whether robot is moving or not
     
+=======
+    # Service to get whether robot is moving or not
+    
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
     
     `;
   }
@@ -144,9 +149,15 @@ class robot_IsMovingResponse {
   static messageDefinition() {
     // Returns full string definition for message
     return `
+<<<<<<< HEAD
     bool moving
     int64 ret
     string msg
+=======
+    bool moving
+    int64 ret
+    string msg
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
     
     
     `;

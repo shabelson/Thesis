@@ -11,9 +11,15 @@ class robot_SetCommRequest(genpy.Message):
   _md5sum = "284404659b502753974e60f7457ed2dc"
   _type = "abb_node/robot_SetCommRequest"
   _has_header = False  # flag to mark the presence of a Header object
+<<<<<<< HEAD
   _full_text = """#Service to set the communication mode of the robot
 
 int64 mode  #1-Blocking; 0-Nonblocking
+=======
+  _full_text = """#Service to set the communication mode of the robot
+
+int64 mode  #1-Blocking; 0-Nonblocking
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
 """
   __slots__ = ['mode']
   _slot_types = ['int64']
@@ -126,7 +132,11 @@ class robot_SetCommResponse(genpy.Message):
   _md5sum = "1e32786be6359fbbb6259aee4f579d10"
   _type = "abb_node/robot_SetCommResponse"
   _has_header = False  # flag to mark the presence of a Header object
+<<<<<<< HEAD
   _full_text = """int64 ret
+=======
+  _full_text = """int64 ret
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
 string msg
 """
   __slots__ = ['ret','msg']

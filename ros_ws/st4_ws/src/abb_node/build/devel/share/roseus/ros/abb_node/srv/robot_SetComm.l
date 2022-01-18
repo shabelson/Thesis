@@ -158,22 +158,38 @@
 (setf (get abb_node::robot_SetCommRequest :md5sum-) "9a8139bbede588258d8a8cdc808e7b88")
 (setf (get abb_node::robot_SetCommRequest :datatype-) "abb_node/robot_SetCommRequest")
 (setf (get abb_node::robot_SetCommRequest :definition-)
+<<<<<<< HEAD
       "#Service to set the communication mode of the robot
 
 int64 mode  #1-Blocking; 0-Nonblocking
 ---
 int64 ret
+=======
+      "#Service to set the communication mode of the robot
+
+int64 mode  #1-Blocking; 0-Nonblocking
+---
+int64 ret
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
 string msg
 ")
 
 (setf (get abb_node::robot_SetCommResponse :md5sum-) "9a8139bbede588258d8a8cdc808e7b88")
 (setf (get abb_node::robot_SetCommResponse :datatype-) "abb_node/robot_SetCommResponse")
 (setf (get abb_node::robot_SetCommResponse :definition-)
+<<<<<<< HEAD
       "#Service to set the communication mode of the robot
 
 int64 mode  #1-Blocking; 0-Nonblocking
 ---
 int64 ret
+=======
+      "#Service to set the communication mode of the robot
+
+int64 mode  #1-Blocking; 0-Nonblocking
+---
+int64 ret
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
 string msg
 ")
 

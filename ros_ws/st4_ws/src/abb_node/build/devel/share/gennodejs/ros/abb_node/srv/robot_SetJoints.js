@@ -68,9 +68,15 @@ class robot_SetJointsRequest {
   static messageDefinition() {
     // Returns full string definition for message
     return `
+<<<<<<< HEAD
     # Service to Set Joints
     float64[] position
     
+=======
+    # Service to Set Joints
+    float64[] position
+    
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
     
     `;
   }
@@ -154,7 +160,11 @@ class robot_SetJointsResponse {
   static messageDefinition() {
     // Returns full string definition for message
     return `
+<<<<<<< HEAD
     int64 ret
+=======
+    int64 ret
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
     string msg
     
     `;

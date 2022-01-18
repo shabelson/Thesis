@@ -11,6 +11,7 @@ class robot_SetZoneRequest(genpy.Message):
   _md5sum = "284404659b502753974e60f7457ed2dc"
   _type = "abb_node/robot_SetZoneRequest"
   _has_header = False  # flag to mark the presence of a Header object
+<<<<<<< HEAD
   _full_text = """# Service to Set the Zone of the robot
 # Mode - Name in RAPID - Linear  - Orientation
 #   0        fine         0 mm        0°
@@ -20,6 +21,17 @@ class robot_SetZoneRequest(genpy.Message):
 #   4         z10         10 mm       1.5°
 
 int64 mode
+=======
+  _full_text = """# Service to Set the Zone of the robot
+# Mode - Name in RAPID - Linear  - Orientation
+#   0        fine         0 mm        0°
+#   1         z0          0.3 mm      0.03°  <- Default and recommended value.
+#   2         z1          1 mm        0.1°
+#   3         z5          5 mm        0.8°
+#   4         z10         10 mm       1.5°
+
+int64 mode
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
 """
   __slots__ = ['mode']
   _slot_types = ['int64']
@@ -132,8 +144,13 @@ class robot_SetZoneResponse(genpy.Message):
   _md5sum = "1e32786be6359fbbb6259aee4f579d10"
   _type = "abb_node/robot_SetZoneResponse"
   _has_header = False  # flag to mark the presence of a Header object
+<<<<<<< HEAD
   _full_text = """int64 ret
 string msg
+=======
+  _full_text = """int64 ret
+string msg
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
 
 """
   __slots__ = ['ret','msg']

@@ -1,0 +1,9 @@
+WARNING: Package name "abb_HW_interface" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+WARNING: Package name "abb_HW_interface" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[01m[K/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/src/abb_node/src/abb_node.cpp:[m[K In member function ‘[01m[Kvoid RobotController::logCallback(const ros::TimerEvent&)[m[K’:
+[01m[K/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/src/abb_node/src/abb_node.cpp:1555:38:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 3 has type ‘[01m[Kint[m[K’ [[01;35m[K-Wformat=[m[K]
+      &msgCartesian.pose.orientation.z[01;35m[K)[m[K;
+                                      [01;35m[K^[m[K
+[01m[K/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/src/abb_node/src/abb_node.cpp:1555:38:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%lf[m[K’ expects argument of type ‘[01m[Kdouble*[m[K’, but argument 5 has type ‘[01m[Kchar*[m[K’ [[01;35m[K-Wformat=[m[K]
+[01m[K/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/src/abb_node/src/abb_node.cpp:1555:38:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%lf[m[K’ expects argument of type ‘[01m[Kdouble*[m[K’, but argument 6 has type ‘[01m[Kdouble[m[K’ [[01;35m[K-Wformat=[m[K]
+[01m[K/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/src/abb_node/src/abb_node.cpp:1555:38:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K-Wformat-extra-args[m[K]

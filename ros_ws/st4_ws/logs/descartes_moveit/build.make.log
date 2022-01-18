@@ -1,0 +1,28 @@
+[ 20%] [32mBuilding CXX object CMakeFiles/descartes_moveit.dir/src/ikfast_moveit_state_adapter.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/descartes_moveit.dir/src/moveit_state_adapter.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/descartes_moveit.dir/src/plugin_init.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/descartes_moveit.dir/src/seed_search.cpp.o[0m
+In file included from [01m[K/opt/ros/melodic/include/moveit/robot_model_loader/robot_model_loader.h:43:0[m[K,
+                 from [01m[K/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/src/descartes/descartes_moveit/include/descartes_moveit/moveit_state_adapter.h:26[m[K,
+                 from [01m[K/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/src/descartes/descartes_moveit/include/descartes_moveit/ikfast_moveit_state_adapter.h:22[m[K,
+                 from [01m[K/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/src/descartes/descartes_moveit/src/ikfast_moveit_state_adapter.cpp:19[m[K:
+[01m[K/opt/ros/melodic/include/moveit/kinematics_plugin_loader/kinematics_plugin_loader.h:[m[K In constructor ‘[01m[Kkinematics_plugin_loader::KinematicsPluginLoader::KinematicsPluginLoader(const string&, double, unsigned int, const string&, double)[m[K’:
+[01m[K/opt/ros/melodic/include/moveit/kinematics_plugin_loader/kinematics_plugin_loader.h:71:95:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kik_attempts[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   KinematicsPluginLoader(const std::string& solver_plugin, double solve_timeout, unsigned int [01;35m[Kik_attempts[m[K,
+                                                                                               [01;35m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/melodic/include/moveit/robot_model_loader/robot_model_loader.h:43:0[m[K,
+                 from [01m[K/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/src/descartes/descartes_moveit/include/descartes_moveit/moveit_state_adapter.h:26[m[K,
+                 from [01m[K/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/src/descartes/descartes_moveit/src/moveit_state_adapter.cpp:22[m[K:
+[01m[K/opt/ros/melodic/include/moveit/kinematics_plugin_loader/kinematics_plugin_loader.h:[m[K In constructor ‘[01m[Kkinematics_plugin_loader::KinematicsPluginLoader::KinematicsPluginLoader(const string&, double, unsigned int, const string&, double)[m[K’:
+[01m[K/opt/ros/melodic/include/moveit/kinematics_plugin_loader/kinematics_plugin_loader.h:71:95:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kik_attempts[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   KinematicsPluginLoader(const std::string& solver_plugin, double solve_timeout, unsigned int [01;35m[Kik_attempts[m[K,
+                                                                                               [01;35m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/melodic/include/moveit/robot_model_loader/robot_model_loader.h:43:0[m[K,
+                 from [01m[K/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/src/descartes/descartes_moveit/include/descartes_moveit/moveit_state_adapter.h:26[m[K,
+                 from [01m[K/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/src/descartes/descartes_moveit/src/plugin_init.cpp:6[m[K:
+[01m[K/opt/ros/melodic/include/moveit/kinematics_plugin_loader/kinematics_plugin_loader.h:[m[K In constructor ‘[01m[Kkinematics_plugin_loader::KinematicsPluginLoader::KinematicsPluginLoader(const string&, double, unsigned int, const string&, double)[m[K’:
+[01m[K/opt/ros/melodic/include/moveit/kinematics_plugin_loader/kinematics_plugin_loader.h:71:95:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kik_attempts[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   KinematicsPluginLoader(const std::string& solver_plugin, double solve_timeout, unsigned int [01;35m[Kik_attempts[m[K,
+                                                                                               [01;35m[K^~~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX shared library /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/lib/libdescartes_moveit.so[0m
+[100%] Built target descartes_moveit

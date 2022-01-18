@@ -11,9 +11,15 @@ class robot_SetCartesianRequest(genpy.Message):
   _md5sum = "58d2d1e6aec0ba31449f4caaba772e31"
   _type = "abb_node/robot_SetCartesianRequest"
   _has_header = False  # flag to mark the presence of a Header object
+<<<<<<< HEAD
   _full_text = """# Service to Set Cartesians
 float64[] cartesian
 float64[] quaternion
+=======
+  _full_text = """# Service to Set Cartesians
+float64[] cartesian
+float64[] quaternion
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
 """
   __slots__ = ['cartesian','quaternion']
   _slot_types = ['float64[]','float64[]']
@@ -161,7 +167,11 @@ class robot_SetCartesianResponse(genpy.Message):
   _md5sum = "1e32786be6359fbbb6259aee4f579d10"
   _type = "abb_node/robot_SetCartesianResponse"
   _has_header = False  # flag to mark the presence of a Header object
+<<<<<<< HEAD
   _full_text = """int64 ret
+=======
+  _full_text = """int64 ret
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
 string msg
 """
   __slots__ = ['ret','msg']

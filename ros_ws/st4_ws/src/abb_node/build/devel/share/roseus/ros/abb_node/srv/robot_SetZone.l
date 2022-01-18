@@ -158,6 +158,7 @@
 (setf (get abb_node::robot_SetZoneRequest :md5sum-) "9a8139bbede588258d8a8cdc808e7b88")
 (setf (get abb_node::robot_SetZoneRequest :datatype-) "abb_node/robot_SetZoneRequest")
 (setf (get abb_node::robot_SetZoneRequest :definition-)
+<<<<<<< HEAD
       "# Service to Set the Zone of the robot
 # Mode - Name in RAPID - Linear  - Orientation
 #   0        fine         0 mm        0°
@@ -170,12 +171,27 @@ int64 mode
 ---
 int64 ret
 string msg
+=======
+      "# Service to Set the Zone of the robot
+# Mode - Name in RAPID - Linear  - Orientation
+#   0        fine         0 mm        0°
+#   1         z0          0.3 mm      0.03°  <- Default and recommended value.
+#   2         z1          1 mm        0.1°
+#   3         z5          5 mm        0.8°
+#   4         z10         10 mm       1.5°
+
+int64 mode
+---
+int64 ret
+string msg
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
 
 ")
 
 (setf (get abb_node::robot_SetZoneResponse :md5sum-) "9a8139bbede588258d8a8cdc808e7b88")
 (setf (get abb_node::robot_SetZoneResponse :datatype-) "abb_node/robot_SetZoneResponse")
 (setf (get abb_node::robot_SetZoneResponse :definition-)
+<<<<<<< HEAD
       "# Service to Set the Zone of the robot
 # Mode - Name in RAPID - Linear  - Orientation
 #   0        fine         0 mm        0°
@@ -188,6 +204,20 @@ int64 mode
 ---
 int64 ret
 string msg
+=======
+      "# Service to Set the Zone of the robot
+# Mode - Name in RAPID - Linear  - Orientation
+#   0        fine         0 mm        0°
+#   1         z0          0.3 mm      0.03°  <- Default and recommended value.
+#   2         z1          1 mm        0.1°
+#   3         z5          5 mm        0.8°
+#   4         z10         10 mm       1.5°
+
+int64 mode
+---
+int64 ret
+string msg
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
 
 ")
 

@@ -139,24 +139,42 @@
 (setf (get abb_node::robot_IsMovingRequest :md5sum-) "6a8e4a0e30cc934246f28f5db62a1332")
 (setf (get abb_node::robot_IsMovingRequest :datatype-) "abb_node/robot_IsMovingRequest")
 (setf (get abb_node::robot_IsMovingRequest :definition-)
+<<<<<<< HEAD
       "# Service to get whether robot is moving or not
 
 ---
 bool moving
 int64 ret
 string msg
+=======
+      "# Service to get whether robot is moving or not
+
+---
+bool moving
+int64 ret
+string msg
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
 
 ")
 
 (setf (get abb_node::robot_IsMovingResponse :md5sum-) "6a8e4a0e30cc934246f28f5db62a1332")
 (setf (get abb_node::robot_IsMovingResponse :datatype-) "abb_node/robot_IsMovingResponse")
 (setf (get abb_node::robot_IsMovingResponse :definition-)
+<<<<<<< HEAD
       "# Service to get whether robot is moving or not
 
 ---
 bool moving
 int64 ret
 string msg
+=======
+      "# Service to get whether robot is moving or not
+
+---
+bool moving
+int64 ret
+string msg
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
 
 ")
 

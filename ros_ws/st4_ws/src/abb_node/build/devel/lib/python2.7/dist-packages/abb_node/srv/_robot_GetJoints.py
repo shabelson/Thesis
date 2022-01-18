@@ -11,8 +11,13 @@ class robot_GetJointsRequest(genpy.Message):
   _md5sum = "d41d8cd98f00b204e9800998ecf8427e"
   _type = "abb_node/robot_GetJointsRequest"
   _has_header = False  # flag to mark the presence of a Header object
+<<<<<<< HEAD
   _full_text = """# Service to get joint angles of the robot
 
+=======
+  _full_text = """# Service to get joint angles of the robot
+
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
 """
   __slots__ = []
   _slot_types = []
@@ -106,6 +111,7 @@ class robot_GetJointsResponse(genpy.Message):
   _md5sum = "927b82d08077d046362055bd87d33b65"
   _type = "abb_node/robot_GetJointsResponse"
   _has_header = False  # flag to mark the presence of a Header object
+<<<<<<< HEAD
   _full_text = """float64 j1
 float64 j2
 float64 j3
@@ -113,6 +119,15 @@ float64 j4
 float64 j5
 float64 j6
 int64 ret
+=======
+  _full_text = """float64 j1
+float64 j2
+float64 j3
+float64 j4
+float64 j5
+float64 j6
+int64 ret
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
 string msg
 """
   __slots__ = ['j1','j2','j3','j4','j5','j6','ret','msg']

@@ -204,6 +204,7 @@
 (setf (get abb_node::robot_SetToolRequest :md5sum-) "13716a3f1e232bc5200a276031ef97c2")
 (setf (get abb_node::robot_SetToolRequest :datatype-) "abb_node/robot_SetToolRequest")
 (setf (get abb_node::robot_SetToolRequest :definition-)
+<<<<<<< HEAD
       "# Service to Set the Tool of the robot in cartesian coordinates
 
 float64 x
@@ -216,12 +217,27 @@ float64 qz
 ---
 int64 ret
 string msg
+=======
+      "# Service to Set the Tool of the robot in cartesian coordinates
+
+float64 x
+float64 y
+float64 z
+float64 q0
+float64 qx
+float64 qy
+float64 qz
+---
+int64 ret
+string msg
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
 
 ")
 
 (setf (get abb_node::robot_SetToolResponse :md5sum-) "13716a3f1e232bc5200a276031ef97c2")
 (setf (get abb_node::robot_SetToolResponse :datatype-) "abb_node/robot_SetToolResponse")
 (setf (get abb_node::robot_SetToolResponse :definition-)
+<<<<<<< HEAD
       "# Service to Set the Tool of the robot in cartesian coordinates
 
 float64 x
@@ -234,6 +250,20 @@ float64 qz
 ---
 int64 ret
 string msg
+=======
+      "# Service to Set the Tool of the robot in cartesian coordinates
+
+float64 x
+float64 y
+float64 z
+float64 q0
+float64 qx
+float64 qy
+float64 qz
+---
+int64 ret
+string msg
+>>>>>>> 1b1f87b6247333221ca1660d810eda01b82fd03f
 
 ")
 
