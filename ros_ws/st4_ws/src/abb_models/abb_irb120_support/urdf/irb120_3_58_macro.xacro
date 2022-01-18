@@ -294,5 +294,5 @@
     </joint>
     <link name="${prefix}tcp"/>
   </xacro:macro>
-<!--xacro:include filename="$(find astra_camera)/urdf/common_materials.xacro"/-->
+<xacro:include filename="$(find astra_camera)/urdf/common_materials.xacro"/>
 </robot>
