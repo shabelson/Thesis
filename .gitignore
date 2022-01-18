@@ -8,9 +8,9 @@ ros_ws/turntable/build/
 ros_ws/turntable/.catkin_tools/
 ros_ws/turntable/logs/
 *.log
-*.log
-*.log
-*.log
+*.make.log
+*.make
+*.o
 *.log
 *.log
 ros_ws/st4_ws/logs/descartes_capability/build.make.log
