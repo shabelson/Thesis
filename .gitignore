@@ -7,3 +7,5 @@ ros_ws/turntable/devel/
 ros_ws/turntable/build/
 ros_ws/turntable/.catkin_tools/
 ros_ws/turntable/logs/
+*.log
+*.log
