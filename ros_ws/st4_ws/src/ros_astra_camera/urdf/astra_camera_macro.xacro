@@ -2,6 +2,7 @@
 <robot xmlns:xacro="http://ros.org/wiki/xacro">
  <xacro:include filename="$(find astra_camera)/urdf/common_materials.xacro"/>
  <xacro:macro name="astra_camera" params="prefix">
+
  <xacro:property name="pi" value="3.14159" />
     <link name ="${prefix}camera_body_link">
      <inertial>
@@ -26,11 +27,11 @@
     </link>
 
 
-<joint type="fixed" name="${prefix}tool0_to_cam">
-    <origin xyz="0 0 0" rpy="0 0 0"/>
-    <parent link="${prefix}tool0"/>
-    <child link="${prefix}camera_body_link"/>
-    </joint>
+<joint type="fixed" name="${prefix}cam_body_to_table_link">
+        <origin xyz="-0.8 0 0" rpy="0 ${-pi*0.5} 0"/>
+        <parent link="${prefix}table_link"/>
+        <child link="${prefix}camera_body_link"/>
+        </joint>
 
 <joint type="fixed" name="${prefix}cam_to_camlink">
     <origin xyz="0 0 0.025" rpy="0 ${-pi*0.5} 0"/>
@@ -38,14 +39,9 @@
     <child link="${prefix}camera_link"/>
     </joint>
 
-<joint type="fixed" name="${prefix}cam_to_base_link">
-        <origin xyz="-0.8 0 0" rpy="0 ${-pi*0.5} 0"/>
-        <parent link="${prefix}camera_link"/>
-        <child link="${prefix}base_link"/>
-        </joint>
 
 
-<link name="${prefix}base_link"/>
+
 <link name="${prefix}camera_link"/>
  </xacro:macro>
 </robot>

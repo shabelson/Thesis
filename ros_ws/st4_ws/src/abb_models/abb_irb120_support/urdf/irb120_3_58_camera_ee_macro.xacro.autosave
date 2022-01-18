@@ -292,7 +292,7 @@
       <parent link="${prefix}tool0"/>
       <child link="${prefix}tcp"/>
     </joint>
-    <link name="${prefix}tcp"/>
-  </xacro:macro>
-<!--xacro:include filename="$(find astra_camera)/urdf/common_materials.xacro"/-->
+   
+ 
+ </xacro:macro>
 </robot>

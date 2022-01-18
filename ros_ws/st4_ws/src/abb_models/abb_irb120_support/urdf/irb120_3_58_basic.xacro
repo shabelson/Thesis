@@ -3,6 +3,10 @@
   <xacro:include filename="$(find abb_resources)/urdf/common_materials.xacro"/>
   <xacro:macro name="abb_irb120_3_58" params="prefix">
     <!-- link list -->
+    <!-- DUMMY LINKS -->
+    <link name="${prefix}base"/>
+    <link name="${prefix}flange"/>
+     <!-- REAL LINKS -->
    <link name="${prefix}table_link">
   <inertial>
         <mass value="6.215"/>
@@ -130,7 +134,6 @@
         <xacro:material_abb_yellow />
       </collision>
     </link>
-    
     <link name="${prefix}link_5">
       <inertial>
         <mass value="0.546"/>
@@ -152,7 +155,6 @@
         <xacro:material_abb_yellow />
       </collision>
     </link>
-
     <link name="${prefix}link_6">
       <inertial>
         <mass value="0.137"/>
@@ -173,33 +175,8 @@
         </geometry>
         <xacro:material_abb_yellow />
       </collision>
-
     </link>
-        <link name="${prefix}tool0">
-      <inertial>
-        <mass value="0.137"/>
-        <origin xyz="0 0 6.22E-05" rpy="0 0 6.22E-05"/>
-        <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
-      </inertial>
-      <visual>
-        <origin xyz="0 0 6.22E-05" rpy="0 0 0"/>
-        <geometry>
-          <mesh filename="package://abb_irb120_support/meshes/irb120_3_58/visual/wire_cutter.stl"/>
-        </geometry>
-        <xacro:material_abb_black />
-      </visual>
-      <collision>
-        <origin xyz="0 0 6.22E-05" rpy="0 0 0"/>
-        <geometry>
-          <mesh filename="package://abb_irb120_support/meshes/irb120_3_58/collision/tool1_demo_collision.stl"/>
-        </geometry>
-        <xacro:material_abb_yellow />
-      </collision>
-    </link>
-
-
-
-    <!-- end of link list -->
+  <!-- end of link list -->
 
     
     <!-- joint list -->
@@ -255,7 +232,7 @@
     <!-- end of joint list -->
     <!--virtual links-->
     <!-- ROS-Industrial 'base' frame: base_link to ABB World Coordinates transform -->
-      <link name="${prefix}base"/>
+
     <joint name="${prefix}base-table" type="fixed">
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <parent link="${prefix}base"/>
@@ -270,29 +247,11 @@
     </joint>
 
     <!-- ROS-Industrial 'flange' frame: attachment point for EEF models -->
-    <link name="${prefix}flange"/>
+
     <joint type="fixed" name="${prefix}joint_6-flange">
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <parent link="${prefix}link_6"/>
       <child link="${prefix}flange"/>
     </joint>
-
-    <!-- ROS-Industrial 'tool0' frame: all-zeros tool frame -->
-
-
-
-    <joint name="${prefix}link_6-tool" type="fixed">
-      <origin xyz="0.001 0 0" rpy="0 ${radians (90)} 0" />
-      <parent link="${prefix}flange" />
-      <child link="${prefix}tool0" />
-    </joint>
-
-   <joint name="${prefix}tcp_joint" type="fixed">
-      <origin xyz="0.05 0 0.30" rpy="0 0 0"/>
-      <parent link="${prefix}tool0"/>
-      <child link="${prefix}tcp"/>
-    </joint>
-    <link name="${prefix}tcp"/>
-  </xacro:macro>
-<!--xacro:include filename="$(find astra_camera)/urdf/common_materials.xacro"/-->
+ </xacro:macro>
 </robot>
