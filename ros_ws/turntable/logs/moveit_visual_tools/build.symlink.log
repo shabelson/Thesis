@@ -1,5 +1,5 @@
-Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/devel/share/moveit_visual_tools/cmake/moveit_visual_toolsConfig.cmake
-Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/devel/share/moveit_visual_tools/cmake/moveit_visual_toolsConfig-version.cmake
-Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/devel/lib/libmoveit_visual_tools.so
-Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/devel/lib/moveit_visual_tools/moveit_visual_tools_demo
-Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/devel/lib/pkgconfig/moveit_visual_tools.pc
+Linked: (/home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/devel/.private/moveit_visual_tools/share/moveit_visual_tools/cmake/moveit_visual_toolsConfig.cmake, /home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/devel/share/moveit_visual_tools/cmake/moveit_visual_toolsConfig.cmake)
+Linked: (/home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/devel/.private/moveit_visual_tools/share/moveit_visual_tools/cmake/moveit_visual_toolsConfig-version.cmake, /home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/devel/share/moveit_visual_tools/cmake/moveit_visual_toolsConfig-version.cmake)
+Linked: (/home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/devel/.private/moveit_visual_tools/lib/libmoveit_visual_tools.so, /home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/devel/lib/libmoveit_visual_tools.so)
+Linked: (/home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/devel/.private/moveit_visual_tools/lib/moveit_visual_tools/moveit_visual_tools_demo, /home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/devel/lib/moveit_visual_tools/moveit_visual_tools_demo)
+Linked: (/home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/devel/.private/moveit_visual_tools/lib/pkgconfig/moveit_visual_tools.pc, /home/shabelson/Documents/GitHub/Thesis/ros_ws/turntable/devel/lib/pkgconfig/moveit_visual_tools.pc)

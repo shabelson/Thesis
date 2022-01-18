@@ -26,7 +26,7 @@
     </collision>
   </link>
 <!-- DUMMY LINKS -->
-    <link name="${prefix}tcp"/>
+    <link name="${prefix}wire"/>
 
 <!-- DEFINE ADDED JOINTS -->
 <joint name="${prefix}link_6-tool" type="fixed">
@@ -40,7 +40,7 @@
    <origin xyz="0.05 0 0.30" rpy="0 0 0"/>
 
    <parent link="${prefix}tool0"/>
-   <child link="${prefix}tcp"/>
+   <child link="${prefix}wire"/>
  </joint>
     </xacro:macro>
 </robot>

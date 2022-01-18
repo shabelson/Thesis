@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.9.2, 2022-01-09T20:23:41. -->
+<!-- Written by QtCreator 4.9.2, 2022-01-18T18:59:44. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -111,21 +111,21 @@
     <value type="int" key="ProjectExplorer.BuildConfiguration.BuildStepListCount">2</value>
     <value type="bool" key="ProjectExplorer.BuildConfiguration.ClearSystemEnvironment">false</value>
     <valuelist type="QVariantList" key="ProjectExplorer.BuildConfiguration.UserEnvironmentChanges">
-     <value type="QString">CMAKE_PREFIX_PATH=/home/shabelson/ros_ws/st4_ws/devel:/opt/ros/melodic</value>
-     <value type="QString">LD_LIBRARY_PATH=/home/shabelson/ros_ws/st4_ws/devel/lib:/opt/ros/melodic/lib</value>
+     <value type="QString">CMAKE_PREFIX_PATH=/opt/ros/melodic</value>
+     <value type="QString">LD_LIBRARY_PATH=/opt/ros/melodic/lib</value>
      <value type="QString">PATH=/opt/ros/melodic/bin:/home/shabelson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin</value>
-     <value type="QString">PKG_CONFIG_PATH=/home/shabelson/ros_ws/st4_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig</value>
-     <value type="QString">PWD=/home/shabelson/ros_ws/st4_ws</value>
-     <value type="QString">PYTHONPATH=/home/shabelson/ros_ws/st4_ws/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages</value>
-     <value type="QString">ROSLISP_PACKAGE_DIRECTORIES=/home/shabelson/ros_ws/st4_ws/devel/share/common-lisp</value>
+     <value type="QString">PKG_CONFIG_PATH=/opt/ros/melodic/lib/pkgconfig</value>
+     <value type="QString">PWD=/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws</value>
+     <value type="QString">PYTHONPATH=/opt/ros/melodic/lib/python2.7/dist-packages</value>
+     <value type="QString">ROSLISP_PACKAGE_DIRECTORIES=</value>
      <value type="QString">ROS_DISTRO=melodic</value>
      <value type="QString">ROS_ETC_DIR=/opt/ros/melodic/etc/ros</value>
      <value type="QString">ROS_MASTER_URI=http://localhost:11311</value>
-     <value type="QString">ROS_PACKAGE_PATH=/home/shabelson/ros_ws/st4_ws/src/abb_models/abb_experimental:/home/shabelson/ros_ws/st4_ws/src/abb_models/abb_irb120_gazebo:/home/shabelson/ros_ws/st4_ws/src/abb_models/abb_irb120_moveit_config:/home/shabelson/ros_ws/st4_ws/src/abb_models/abb_irb120_support:/home/shabelson/ros_ws/st4_ws/src/abb_models/abb_irb120t_moveit_config:/home/shabelson/ros_ws/st4_ws/src/abb_moveit:/home/shabelson/ros_ws/st4_ws/src/abb_models/abb_resources:/home/shabelson/ros_ws/st4_ws/src/ros_astra_camera:/home/shabelson/ros_ws/st4_ws/src/descartes/descartes:/home/shabelson/ros_ws/st4_ws/src/descartes/descartes_core:/home/shabelson/ros_ws/st4_ws/src/descartes/descartes_trajectory:/home/shabelson/ros_ws/st4_ws/src/descartes/descartes_moveit:/home/shabelson/ros_ws/st4_ws/src/descartes/descartes_planner:/home/shabelson/ros_ws/st4_ws/src/descartes_capability:/home/shabelson/ros_ws/st4_ws/src/descartes/descartes_tests:/home/shabelson/ros_ws/st4_ws/src/descartes/descartes_utilities:/home/shabelson/ros_ws/st4_ws/src/external_controllers:/home/shabelson/ros_ws/st4_ws/src/industrial_core/industrial_core:/home/shabelson/ros_ws/st4_ws/src/industrial_core/industrial_deprecated:/home/shabelson/ros_ws/st4_ws/src/industrial_core/industrial_msgs:/home/shabelson/ros_ws/st4_ws/src/industrial_core/industrial_robot_simulator:/home/shabelson/ros_ws/st4_ws/src/industrial_core/industrial_trajectory_filters:/home/shabelson/ros_ws/st4_ws/src/industrial_core/industrial_utils:/home/shabelson/ros_ws/st4_ws/src/ros_control_boilerplate:/home/shabelson/ros_ws/st4_ws/src/industrial_core/simple_message:/home/shabelson/ros_ws/st4_ws/src/industrial_core/industrial_robot_client:/home/shabelson/ros_ws/st4_ws/src/abb_node:/home/shabelson/ros_ws/st4_ws/src/abb_HW_interface:/opt/ros/melodic/share</value>
+     <value type="QString">ROS_PACKAGE_PATH=/opt/ros/melodic/share</value>
      <value type="QString">ROS_PYTHON_VERSION=2</value>
      <value type="QString">ROS_ROOT=/opt/ros/melodic/share/ros</value>
      <value type="QString">ROS_VERSION=1</value>
-     <value type="QString">SHLVL=208</value>
+     <value type="QString">SHLVL=209</value>
      <value type="QString">TERM=xterm</value>
      <value type="QString">_=/usr/bin/env</value>
     </valuelist>
