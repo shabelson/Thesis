@@ -1,4 +1,1 @@
-[35m[1mConsolidate compiler generated dependencies of target keyboard_controller[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/keyboard_controller.dir/src/keyboard_controller.cpp.o[0m
-[100%] [32m[1mLinking CXX executable /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/lib/external_controllers/keyboard_controller[0m
 [100%] Built target keyboard_controller

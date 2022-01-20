@@ -4,10 +4,10 @@
 
   <xacro:include filename="$(find abb_irb120_support)/urdf/irb120_3_58_basic.xacro"/>
   <xacro:include filename="$(find abb_irb120_support)/urdf/static_wire_blade_ee.xacro"/>
-  <xacro:include filename="$(find astra_camera)/urdf/astra_camera_macro.xacro"/>
+  <!--xacro:include filename="$(find astra_camera)/urdf/astra_camera_macro.xacro"/-->
 
   <xacro:abb_irb120_3_58 prefix=""/>
   <xacro:adding_static_tool prefix=""/>
-  <xacro:astra_camera prefix=""/>
+  <!--xacro:astra_camera prefix=""/-->
 
 </robot>

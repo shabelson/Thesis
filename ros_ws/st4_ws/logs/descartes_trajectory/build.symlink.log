@@ -1,4 +1,4 @@
-Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/share/descartes_trajectory/cmake/descartes_trajectoryConfig.cmake
-Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/share/descartes_trajectory/cmake/descartes_trajectoryConfig-version.cmake
-Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/lib/libdescartes_trajectory.so
-Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/lib/pkgconfig/descartes_trajectory.pc
+Linked: (/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/.private/descartes_trajectory/share/descartes_trajectory/cmake/descartes_trajectoryConfig.cmake, /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/share/descartes_trajectory/cmake/descartes_trajectoryConfig.cmake)
+Linked: (/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/.private/descartes_trajectory/share/descartes_trajectory/cmake/descartes_trajectoryConfig-version.cmake, /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/share/descartes_trajectory/cmake/descartes_trajectoryConfig-version.cmake)
+Linked: (/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/.private/descartes_trajectory/lib/libdescartes_trajectory.so, /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/lib/libdescartes_trajectory.so)
+Linked: (/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/.private/descartes_trajectory/lib/pkgconfig/descartes_trajectory.pc, /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/lib/pkgconfig/descartes_trajectory.pc)

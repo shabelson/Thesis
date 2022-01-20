@@ -1,7 +1,7 @@
-Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/share/simple_message/cmake/simple_messageConfig.cmake
-Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/share/simple_message/cmake/simple_messageConfig-version.cmake
-Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/lib/libsimple_message_float64.so
-Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/lib/libsimple_message.so
-Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/lib/libsimple_message_bswap.so
-Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/lib/libsimple_message_dummy.so
-Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/lib/pkgconfig/simple_message.pc
+Linked: (/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/.private/simple_message/share/simple_message/cmake/simple_messageConfig.cmake, /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/share/simple_message/cmake/simple_messageConfig.cmake)
+Linked: (/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/.private/simple_message/share/simple_message/cmake/simple_messageConfig-version.cmake, /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/share/simple_message/cmake/simple_messageConfig-version.cmake)
+Linked: (/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/.private/simple_message/lib/libsimple_message_float64.so, /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/lib/libsimple_message_float64.so)
+Linked: (/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/.private/simple_message/lib/libsimple_message.so, /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/lib/libsimple_message.so)
+Linked: (/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/.private/simple_message/lib/libsimple_message_bswap.so, /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/lib/libsimple_message_bswap.so)
+Linked: (/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/.private/simple_message/lib/libsimple_message_dummy.so, /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/lib/libsimple_message_dummy.so)
+Linked: (/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/.private/simple_message/lib/pkgconfig/simple_message.pc, /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/lib/pkgconfig/simple_message.pc)

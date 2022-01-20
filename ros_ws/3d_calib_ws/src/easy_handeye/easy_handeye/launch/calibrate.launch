@@ -19,7 +19,7 @@
 
     <!-- The input reference frames -->
     <arg name="robot_base_frame" default="base_link" />
-    <arg name="robot_effector_frame" default="tool0" />
+    <arg name="robot_effector_frame" default="flange" />
     <arg name="tracking_base_frame" default="tracking_origin" />
     <arg name="tracking_marker_frame" default="tracking_target" />
     
@@ -40,6 +40,8 @@
             args="0 0 0.05 0 0 0 $(arg robot_effector_frame) $(arg tracking_base_frame) 10" />
     </group>
 
+    <node unless="$(arg eye_on_hand)" name="marker_frame" pkg="tf" type="static_transform_publisher"
+        args="0 0 0.05 0 0 0 $(arg robot_effector_frame) $(arg tracking_base_frame) 10" />
 
     <!-- Start the robot backend outside the namespace, so that it can connect to a MoveGroup in the global namespace -->
     <!-- see https://github.com/ros-planning/moveit/issues/2364 -->

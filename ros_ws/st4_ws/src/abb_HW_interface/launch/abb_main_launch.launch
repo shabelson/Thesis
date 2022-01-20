@@ -27,7 +27,7 @@
     <node name="abb_hw_main" pkg="abb_HW_interface" type="abb_hw_main" output="screen"/>
 
     <include file="$(find abb_node)/launch/abb_tf.launch">
-    <arg name="sim" default="true"/>
+    <arg name="sim" default="false"/>
 
 </include>
 

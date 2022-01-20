@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="200mm"
+   height="200mm"
+   viewBox="0 0 200 200"
+   version="1.1"
+   id="SVGRoot"
+   sodipodi:docname="aruco_for_abb.svg"
+   inkscape:version="1.1.1 (50ffc5b540, 2022-01-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview534"
+     pagecolor="#ffffff"
+     bordercolor="#cccccc"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="1"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.73228114"
+     inkscape:cx="155.67791"
+     inkscape:cy="561.25984"
+     inkscape:window-width="1853"
+     inkscape:window-height="1025"
+     inkscape:window-x="67"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs529" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       style="shape-rendering:crispEdges"
+       id="g884"
+       transform="matrix(21.428572,0,0,21.428572,24.999998,24.999998)">
+      <rect
+         x="0"
+         y="0"
+         width="7"
+         height="7"
+         fill="#000000"
+         id="rect800" />
+      <rect
+         width="1"
+         height="1"
+         x="1"
+         y="1"
+         fill="#ffffff"
+         id="rect802" />
+      <rect
+         width="1"
+         height="1"
+         x="2"
+         y="1"
+         fill="#000000"
+         id="rect804" />
+      <rect
+         width="1"
+         height="1"
+         x="3"
+         y="1"
+         fill="#000000"
+         id="rect806" />
+      <rect
+         width="1"
+         height="1"
+         x="4"
+         y="1"
+         fill="#000000"
+         id="rect808" />
+      <rect
+         width="1"
+         height="1"
+         x="5"
+         y="1"
+         fill="#000000"
+         id="rect810" />
+      <rect
+         width="1"
+         height="1"
+         x="1"
+         y="2"
+         fill="#ffffff"
+         id="rect812" />
+      <rect
+         width="1"
+         height="1"
+         x="2"
+         y="2"
+         fill="#000000"
+         id="rect814" />
+      <rect
+         width="1"
+         height="1"
+         x="3"
+         y="2"
+         fill="#ffffff"
+         id="rect816" />
+      <rect
+         width="1"
+         height="1"
+         x="4"
+         y="2"
+         fill="#ffffff"
+         id="rect818" />
+      <rect
+         width="1"
+         height="1"
+         x="5"
+         y="2"
+         fill="#ffffff"
+         id="rect820" />
+      <rect
+         width="1"
+         height="1"
+         x="1"
+         y="3"
+         fill="#000000"
+         id="rect822" />
+      <rect
+         width="1"
+         height="1"
+         x="2"
+         y="3"
+         fill="#ffffff"
+         id="rect824" />
+      <rect
+         width="1"
+         height="1"
+         x="3"
+         y="3"
+         fill="#000000"
+         id="rect826" />
+      <rect
+         width="1"
+         height="1"
+         x="4"
+         y="3"
+         fill="#000000"
+         id="rect828" />
+      <rect
+         width="1"
+         height="1"
+         x="5"
+         y="3"
+         fill="#ffffff"
+         id="rect830" />
+      <rect
+         width="1"
+         height="1"
+         x="1"
+         y="4"
+         fill="#ffffff"
+         id="rect832" />
+      <rect
+         width="1"
+         height="1"
+         x="2"
+         y="4"
+         fill="#000000"
+         id="rect834" />
+      <rect
+         width="1"
+         height="1"
+         x="3"
+         y="4"
+         fill="#ffffff"
+         id="rect836" />
+      <rect
+         width="1"
+         height="1"
+         x="4"
+         y="4"
+         fill="#ffffff"
+         id="rect838" />
+      <rect
+         width="1"
+         height="1"
+         x="5"
+         y="4"
+         fill="#ffffff"
+         id="rect840" />
+      <rect
+         width="1"
+         height="1"
+         x="1"
+         y="5"
+         fill="#ffffff"
+         id="rect842" />
+      <rect
+         width="1"
+         height="1"
+         x="2"
+         y="5"
+         fill="#000000"
+         id="rect844" />
+      <rect
+         width="1"
+         height="1"
+         x="3"
+         y="5"
+         fill="#000000"
+         id="rect846" />
+      <rect
+         width="1"
+         height="1"
+         x="4"
+         y="5"
+         fill="#000000"
+         id="rect848" />
+      <rect
+         width="1"
+         height="1"
+         x="5"
+         y="5"
+         fill="#000000"
+         id="rect850" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.58611px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="5.0931706"
+       y="196.00803"
+       id="text2032"><tspan
+         sodipodi:role="line"
+         id="tspan2030"
+         style="font-size:4.58611px;stroke-width:0.264583"
+         x="5.0931706"
+         y="196.00803">original Aruco id 100 size 150mm canvas 200mm</tspan></text>
+  </g>
+</svg>

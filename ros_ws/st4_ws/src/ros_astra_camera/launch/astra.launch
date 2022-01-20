@@ -26,7 +26,7 @@
   <arg name="depth_registration" default="true" />
 
   <!-- Driver parameters -->
-  <arg name="color_depth_synchronization"     default="false" />
+  <arg name="color_depth_synchronization"     default="true" />
   <arg name="auto_exposure"                   default="true" />
   <arg name="auto_white_balance"              default="true" />
 
@@ -43,7 +43,7 @@
   <!-- Processing Modules -->
   <arg name="rgb_processing"                  default="true"  />
   <arg name="debayer_processing"              default="false" />
-  <arg name="ir_processing"                   default="false" />
+  <arg name="ir_processing"                   default="true" />
   <arg name="depth_processing"                default="true" />
   <arg name="depth_registered_processing"     default="true" />
   <arg name="disparity_processing"            default="false" />
@@ -117,5 +117,5 @@
 	   file="$(find astra_camera)/launch/includes/astra_frames.launch">
     <arg name="camera" value="$(arg camera)" />
   </include>
-  <include file="$(find astra_camera)/launch/astra_description.launch"/>
+  <include file="$(find astra_camera)/launch/astra_description.launch"/>s
 </launch>

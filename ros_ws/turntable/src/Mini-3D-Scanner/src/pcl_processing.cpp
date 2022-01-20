@@ -37,7 +37,7 @@ pcl::PointCloud<PointT>::Ptr cloud_filter(pcl::PointCloud<PointT>::Ptr &cloud);
 static tf::StampedTransform tf_trans;
 
 const std::string base_frame = "camera_rgb_optical_frame";
-const std::string target_frame = "odom";
+const std::string target_frame = "flange";
 
 
 

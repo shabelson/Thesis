@@ -61,9 +61,9 @@ public:
     pub_pcl = nh.advertise<sensor_msgs::PointCloud2> ("/pcl_process", 1);
     gotDataFlag = 0;
     pcd_index = 0;
-    //base_frame = "camera_rgb_optical_frame";
-    base_frame = "model_base";
-    target_frame = "camera_body_link";
+    base_frame = "camera_rgb_optical_frame";
+    //base_frame = "model_base";
+    target_frame = "flange";
     std::cout<<"Processor Init Done"<<std::endl;
     have_ref_frame = false;
     ref_eigen_quat.setIdentity ();

@@ -1,4 +1,4 @@
-Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/share/descartes_planner/cmake/descartes_plannerConfig.cmake
-Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/share/descartes_planner/cmake/descartes_plannerConfig-version.cmake
-Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/lib/libdescartes_planner.so
-Symlinking /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/lib/pkgconfig/descartes_planner.pc
+Linked: (/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/.private/descartes_planner/share/descartes_planner/cmake/descartes_plannerConfig.cmake, /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/share/descartes_planner/cmake/descartes_plannerConfig.cmake)
+Linked: (/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/.private/descartes_planner/share/descartes_planner/cmake/descartes_plannerConfig-version.cmake, /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/share/descartes_planner/cmake/descartes_plannerConfig-version.cmake)
+Linked: (/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/.private/descartes_planner/lib/libdescartes_planner.so, /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/lib/libdescartes_planner.so)
+Linked: (/home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/.private/descartes_planner/lib/pkgconfig/descartes_planner.pc, /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/lib/pkgconfig/descartes_planner.pc)

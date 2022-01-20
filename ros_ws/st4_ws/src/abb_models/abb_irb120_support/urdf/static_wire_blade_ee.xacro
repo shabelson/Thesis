@@ -4,7 +4,7 @@
   <xacro:macro name="adding_static_tool" params="prefix">
 
 <!-- DEFINE ADDED LINKS -->
-      <link name="${prefix}tool0">
+      <link name="${prefix}tool_base">
     <inertial>
       <mass value="0.137"/>
       <origin xyz="0 0 6.22E-05" rpy="0 0 6.22E-05"/>
@@ -31,15 +31,15 @@
 <!-- DEFINE ADDED JOINTS -->
 <joint name="${prefix}link_6-tool" type="fixed">
    <!--TODO: CHANGE SIZES AND LOCATION ACCORDING TO NEW TOOL-->
-    <origin xyz="0.001 0 0" rpy="0 ${radians (90)} 0" />
+    <origin xyz="0.3 -0.3 0" rpy="0 0 0" />
   <parent link="${prefix}table_link" />
-  <child link="${prefix}tool0" />
+  <child link="${prefix}tool_base" />
 </joint>
 
 <joint name="${prefix}tcp_joint" type="fixed">
-   <origin xyz="0.05 0 0.30" rpy="0 0 0"/>
+   <origin xyz="0 0 0.5" rpy="0 0 0"/>
 
-   <parent link="${prefix}tool0"/>
+   <parent link="${prefix}tool_base"/>
    <child link="${prefix}wire"/>
  </joint>
     </xacro:macro>

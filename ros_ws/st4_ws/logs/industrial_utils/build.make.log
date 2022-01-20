@@ -1,5 +1,1 @@
-[35m[1mConsolidate compiler generated dependencies of target industrial_utils[0m
-[ 33%] [32mBuilding CXX object CMakeFiles/industrial_utils.dir/src/utils.cpp.o[0m
-[ 66%] [32mBuilding CXX object CMakeFiles/industrial_utils.dir/src/param_utils.cpp.o[0m
-[100%] [32m[1mLinking CXX shared library /home/shabelson/Documents/GitHub/Thesis/ros_ws/st4_ws/devel/lib/libindustrial_utils.so[0m
 [100%] Built target industrial_utils

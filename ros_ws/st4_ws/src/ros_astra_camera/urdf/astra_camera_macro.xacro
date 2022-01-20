@@ -3,7 +3,8 @@
  <xacro:include filename="$(find astra_camera)/urdf/common_materials.xacro"/>
  <xacro:macro name="astra_camera" params="prefix">
  <xacro:property name="pi" value="3.14159" />
-    <link name ="${prefix}camera_body_link">
+
+ <link name ="${prefix}camera_body_link">
      <inertial>
             <mass value="0.5"/>
             <origin xyz="-0.04204 8.01E-05 0.07964" rpy="0 0 0"/>
@@ -26,19 +27,10 @@
     </link>
 
 
-<joint type="fixed" name="${prefix}table_to_cam">
-    <origin xyz="0 0 0" rpy="0 0 0"/>
-    <parent link="${prefix}table_link"/>
-    <child link="${prefix}camera_body_link"/>
-    </joint>
-
-<joint type="fixed" name="${prefix}cam_to_camlink">
+<!--joint type="fixed" name="${prefix}cam_to_camlink">
     <origin xyz="0 0 0.025" rpy="0 ${-pi*0.5} 0"/>
-    <parent link="${prefix}camera_body_link"/>
-    <child link="${prefix}camera_link"/>
-    </joint>
-
-
-<link name="${prefix}camera_link"/>
+    <parent link="${prefix}camera_link"/>
+    <child link="${prefix}camera_body_link"/>
+    </joint-->
  </xacro:macro>
 </robot>

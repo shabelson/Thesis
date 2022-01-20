@@ -187,7 +187,7 @@ void Processor::pcl_callback(const sensor_msgs::PointCloud2 &cloud_raw)
 
 
   int commontime = tf_listener.getLatestCommonTime (cloud_raw.header.frame_id ,target_frame,tm,&err_string);
-  tf_listener.lookupTransform ( "/camera_body_link" ,cloud_raw.header.frame_id  , ros::Time(commontime), tf_trans);
+  tf_listener.lookupTransform ( "/camera_link" ,cloud_raw.header.frame_id  , ros::Time(commontime), tf_trans);
   pcl::fromROSMsg(cloud_raw, *cloud_ptr);
   cloud_ptr = cloud_filter(cloud_ptr);
   pcl::toROSMsg(*cloud_ptr.get(),ros_pcl);
@@ -195,11 +195,11 @@ void Processor::pcl_callback(const sensor_msgs::PointCloud2 &cloud_raw)
   tf::transformStampedTFToMsg(tf_trans,geo_trans);
   tf2::doTransform(ros_pcl,ros_pcl,geo_trans);
   std::cout<<geo_trans.header.frame_id<<std::endl;
-  tf_listener.lookupTransform ( "/base_link", "/camera_body_link" , ros::Time(commontime), tf_trans);
+  tf_listener.lookupTransform ( "/base_link", "/camera_link" , ros::Time(commontime), tf_trans);
   tf::transformStampedTFToMsg(tf_trans,geo_trans);
   tf2::doTransform(ros_pcl,ros_pcl,geo_trans);
 
-  tf_listener.lookupTransform ( "/base_link", "/model_base" , ros::Time(commontime), tf_trans);
+  tf_listener.lookupTransform ( "/base_link", "/camera_link" , ros::Time(commontime), tf_trans);
 
   tf::Quaternion rot = tf_trans.getRotation ();
   //rot = rot.inverse ();
