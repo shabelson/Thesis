@@ -1,4 +1,54 @@
-<?xml version="1.0"?>
-<!--TODO:add material plate>
+<?xml version="1.0" ?>
 <robot xmlns:xacro="http://ros.org/wiki/xacro">
-  <xacro:include filename="$(find abb_resources)/urdf/common_materials.xacro"/>
+<xacro:include filename="$(find abb_resources)/urdf/common_materials.xacro"/>
+<xacro:macro name="material_holder" params="prefix">
+
+<!--DUMMY LINKS-->
+<link name="${prefix}material_tcp"/>
+<link name="${prefix}arruco_center"/>
+
+<!--PHYSICAL LINKS-->
+<link name="${prefix}material_gripper">
+<inertial>
+     <mass value="0.2"/>
+     <origin xyz="0 0 0" rpy="0 0 0"/>
+     <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+   </inertial>
+     <visual>
+     <origin xyz="0 0 0" rpy="0 ${radians (90)} 0"/>
+     <geometry>
+       <mesh filename="package://abb_irb120_support/meshes/irb120_3_58/visual/material_gripper_2.stl"/>
+     </geometry>
+     <xacro:material_abb_white />
+   </visual>
+   <collision>
+     <origin xyz="0 0 0" rpy="0 ${radians (90)} 0"/>
+     <geometry>
+       <mesh filename="package://abb_irb120_support/meshes/irb120_3_58/collision/material_gripper_2.stl"/>
+     </geometry>
+     <xacro:material_abb_yellow />
+   </collision>
+ </link>
+
+
+<joint name="${prefix}link_6-Material_Gripper" type="fixed">
+  <origin xyz="0.001 0 0" rpy="0 0 0" />
+  <parent link="${prefix}flange" />
+  <child link="${prefix}material_gripper" />
+</joint>
+
+<joint name="${prefix}grippers_arruco" type="fixed">
+  <origin xyz="0.060 0 0" rpy="0 0 0" />
+  <parent link="${prefix}material_gripper" />
+  <child link="${prefix}arruco_center" />
+</joint>
+
+<joint name="${prefix}arruco_to_material_top" type="fixed">
+  <origin xyz="0.200 0 0" rpy="0 0 0" />
+  <parent link="${prefix}arruco_center" />
+  <child link="${prefix}material_tcp" />
+</joint>
+
+
+</xacro:macro>
+</robot>

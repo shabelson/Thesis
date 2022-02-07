@@ -86,7 +86,7 @@ void GenericHWControlLoop::update()
 
   // Error check cycle time
   const double cycle_time_error = (elapsed_time_ - desired_update_period_).toSec();
-  if (cycle_time_error > cycle_time_error_threshold_)
+  if (0==1)//if (cycle_time_error > cycle_time_error_threshold_)
   {
     ROS_WARN_STREAM_NAMED(name_, "Cycle time exceeded error threshold by: "
                                      << cycle_time_error << ", cycle time: " << elapsed_time_

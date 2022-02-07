@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="230mm"
+   height="230mm"
+   viewBox="0 0 230 230"
+   version="1.1"
+   id="SVGRoot"
+   sodipodi:docname="abb_4_aruco_100mm_230.svg"
+   inkscape:version="1.1.1 (26b7af14f2, 2022-01-19)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview269"
+     pagecolor="#ffffff"
+     bordercolor="#cccccc"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="1"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.73228114"
+     inkscape:cx="506.63601"
+     inkscape:cy="417.87229"
+     inkscape:window-width="1853"
+     inkscape:window-height="1025"
+     inkscape:window-x="67"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:lockguides="true"
+     width="230mm" />
+  <defs
+     id="defs264">
+    <linearGradient
+       id="linearGradient5688"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop5686" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3720"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop3718" />
+    </linearGradient>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g6131"
+       transform="translate(-34.861552,-35.005863)">
+      <image
+         preserveAspectRatio="none"
+         inkscape:svg-dpi="300"
+         width="100.00007"
+         height="100.00007"
+         style="stroke:none;stroke-opacity:1;image-rendering:optimizeQuality"
+         xlink:href="../../../../../../../../Downloads/aruco-50.svg"
+         id="image675"
+         x="44.994038"
+         y="154.87332" />
+      <image
+         preserveAspectRatio="none"
+         inkscape:svg-dpi="300"
+         width="100.00007"
+         height="100.00007"
+         style="stroke:none;stroke-opacity:1;image-rendering:optimizeQuality"
+         xlink:href="../../../../../../../../Downloads/aruco-150.svg"
+         id="image1279"
+         x="154.875"
+         y="45.12487" />
+      <image
+         preserveAspectRatio="none"
+         inkscape:svg-dpi="300"
+         width="100.00007"
+         height="100.00007"
+         style="stroke:none;stroke-opacity:1;image-rendering:optimizeQuality"
+         xlink:href="../../../../../../../../Downloads/aruco-200.svg"
+         id="image1581"
+         x="154.875"
+         y="154.87506" />
+      <image
+         preserveAspectRatio="none"
+         inkscape:svg-dpi="300"
+         width="100.00007"
+         height="100.00007"
+         style="stroke:none;stroke-opacity:1;image-rendering:optimizeQuality"
+         xlink:href="../../../../../../../../Downloads/aruco-100(1).svg"
+         id="image2053"
+         x="44.994038"
+         y="45.126606" />
+      <rect
+         id="rect2785"
+         width="209.75012"
+         height="9.7501163"
+         x="45.124939"
+         y="-154.87506"
+         style="fill:#ffffff;stroke:none;stroke-width:0.249884;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         transform="scale(1,-1)" />
+      <g
+         id="g5850"
+         transform="matrix(1.0011787,0,0,0.91194255,-0.176805,13.208618)"
+         style="stroke:none;stroke-opacity:1">
+        <rect
+           id="rect2785-6"
+           width="230"
+           height="10"
+           x="35"
+           y="-155"
+           style="fill:#ffffff;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           transform="rotate(90)" />
+      </g>
+      <g
+         id="g5850-6"
+         transform="matrix(1.0005901,0,0,0.95539522,-110.09448,11.684823)"
+         style="stroke:none;stroke-opacity:1">
+        <rect
+           id="rect2785-6-2"
+           width="230"
+           height="10"
+           x="35"
+           y="-155"
+           style="fill:#ffffff;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           transform="rotate(90)" />
+      </g>
+      <g
+         id="g5850-6-1"
+         transform="matrix(1.0005901,0,0,0.95539522,109.64349,1.693634)"
+         style="stroke:none;stroke-opacity:1">
+        <rect
+           id="rect2785-6-2-2"
+           width="230"
+           height="10"
+           x="35"
+           y="-155"
+           style="fill:#ffffff;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           transform="rotate(90)" />
+      </g>
+      <rect
+         id="rect2785-3"
+         width="219.74091"
+         height="10.005901"
+         x="44.994038"
+         y="-264.87927"
+         style="fill:#ffffff;stroke:none;stroke-width:0.259099;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         transform="scale(1,-1)" />
+      <rect
+         id="rect2785-3-0"
+         width="219.74091"
+         height="10.005901"
+         x="34.988148"
+         y="-45.138355"
+         style="fill:#ffffff;stroke:none;stroke-width:0.259099;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         transform="scale(1,-1)" />
+    </g>
+  </g>
+</svg>
