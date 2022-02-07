@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: abb_irb120_support
+    relative_path: urdf/irb120_3_58_load_robot_and_static_tool.xacro
+    xacro_args: ""
+  SRDF:
+    relative_path: config/abb_irb120_3_58.srdf
+  CONFIG:
+    author_name: shahar ableson
+    author_email: shabelson@gmail.com
+    generated_timestamp: 1643733346
