@@ -17,6 +17,8 @@
 #include <pcl/filters/extract_indices.h>
 
 #include <tf/transform_listener.h>
+#include <tf/transform_broadcaster.h>
+
 #include <tf/transform_datatypes.h>
 #include "tf_conversions/tf_eigen.h"
 #include "tf_conversions/tf_kdl.h"
@@ -40,7 +42,15 @@
 template void pcl::transformPointCloud <pcl::PointXYZRGBA, float>(const pcl::PointCloud<PointT>& c_in,pcl::PointCloud<PointT>& c_out ,const Eigen::Vector3f &offset, const Eigen::Quaternionf &rotation,bool t);
 
 
-
+//pcl::PointCloud<PointT>::Ptr Processor::TransformPtCloud (sensor_msgs::PointCloud2 &source_cloud,tf::StampedTransform &tf_trans)
+//{
+//  pcl::PointCloud<PointT> loc_pcl;
+//  pcl::fromROSMsg(source_cloud, loc_pcl);
+//  TransformPtCloud (*loc_pcl,tf_trans);
+//  pcl::toROSMsg (loc_pcl,source_cloud);
+//  return loc_pcl;
+//
+//}
 pcl::PointCloud<PointT>::Ptr Processor::TransformPtCloud
 (pcl::PointCloud<PointT>::Ptr &source_cloud,tf::StampedTransform &tf_trans)
 {
@@ -66,7 +76,7 @@ pcl::PointCloud<PointT>::Ptr Processor::TransformPtCloud
   eigen_quat = eigen_quatD.cast<float>();
   eigen_vector =eigen_vectorD.cast<float>();
 
-  std::cout<<tf_trans.child_frame_id_<<" "<<tf_trans.frame_id_<<std::endl;
+
   pcl::PointCloud<PointT>::Ptr transformed_cloud (new pcl::PointCloud<PointT> ());
   pcl::transformPointCloud(*source_cloud, *transformed_cloud,eigen_vector,eigen_quat);
 
@@ -82,11 +92,12 @@ pcl::PointCloud<PointT>::Ptr Processor::cloud_filter(pcl::PointCloud<PointT>::Pt
     // Create the filtering object - passthrough
     pcl::PassThrough<PointT> passz;
     passz.setInputCloud (cloud);
+    float bounds = 0.11;
     passz.setFilterFieldName ("z");
     //passz.setFilterLimits (0.0f, 1.5f);
     // passz.setFilterLimits (0.5, 1.5);
 
-     passz.setFilterLimits (-1.5, 1.5f);
+     passz.setFilterLimits (-1*bounds, bounds);
     //passz.setFilterLimitsNegative (true);
     passz.filter (*cloud_filtered);
 
@@ -94,7 +105,7 @@ pcl::PointCloud<PointT>::Ptr Processor::cloud_filter(pcl::PointCloud<PointT>::Pt
     passy.setInputCloud (cloud_filtered);
     passy.setFilterFieldName ("y");
     //passy.setFilterLimits (-1.0f, 1.0f);
-    passy.setFilterLimits (-0.3f, 0.3f);
+    passy.setFilterLimits (-1*bounds, bounds);
 
     // passy.setFilterLimits (-2.0, 2.0);
     //pass.setFilterLimitsNegative (true);
@@ -104,47 +115,60 @@ pcl::PointCloud<PointT>::Ptr Processor::cloud_filter(pcl::PointCloud<PointT>::Pt
     passx.setInputCloud (cloud_filtered);
     passx.setFilterFieldName ("x");
     //passx.setFilterLimits (-1.0f, 1.0f);
-     passx.setFilterLimits (-0.2f, 0.2f);
+     passx.setFilterLimits (0, 2*bounds);
 
     // passx.setFilterLimits (-3.0, 3.0);
     //pass.setFilterLimitsNegative (true);
     passx.filter (*cloud_filtered);
     //std::cout<<"Succed XYZ"<<std::endl;
   //****************************************************//
+    PointT tempPt;
+    tempPt.r =255;
+    tempPt.g = 0;
+    tempPt.b = 0;
+
+    for ( int i=-bounds*100;i<bounds*100;i++ )
+      for ( int t=-bounds*100;t<bounds*100;t++ )
+      {
+      tempPt.x = 0;
+      tempPt.y = i;
+      tempPt.z = t;
+      cloud_filtered->push_back (tempPt);
+      }
 
 
 
   //****************************************************//
     // // segment ground
-    // pcl::ModelCoefficients::Ptr coefficients (new pcl::ModelCoefficients);
-    // pcl::PointIndices::Ptr inliers (new pcl::PointIndices);
-    // // Create the segmentation object
-    // pcl::SACSegmentation<PointT> seg;
-    // // Optional
-    // seg.setOptimizeCoefficients (true);
-    // // Mandatory
-    // seg.setModelType (pcl::SACMODEL_PLANE);  // plane
-    // seg.setMethodType (pcl::SAC_RANSAC);
-    // seg.setDistanceThreshold (0.010);
-
-    // seg.setInputCloud (cloud_filtered);
-    // seg.segment (*inliers, *coefficients);
-
-    // pcl::ExtractIndices<PointT> extract;
-    // extract.setInputCloud(cloud_filtered);
-    // extract.setIndices(inliers);
-    // extract.setNegative(true);
-    // extract.filter(*cloud_filtered);
+     //pcl::ModelCoefficients::Ptr coefficients (new pcl::ModelCoefficients);
+     //pcl::PointIndices::Ptr inliers (new pcl::PointIndices);
+     //// Create the segmentation object
+     //pcl::SACSegmentation<PointT> seg;
+     //// Optional
+     //seg.setOptimizeCoefficients (true);
+     //// Mandatory
+     //seg.setModelType (pcl::SACMODEL_PLANE);  // plane
+     //seg.setMethodType (pcl::SAC_RANSAC);
+     //seg.setDistanceThreshold (0.010);
+     //
+     //seg.setInputCloud (cloud_filtered);
+     //seg.segment (*inliers, *coefficients);
+     //
+     //pcl::ExtractIndices<PointT> extract;
+     //extract.setInputCloud(cloud_filtered);
+     //extract.setIndices(inliers);
+     //extract.setNegative(true);
+     //extract.filter(*cloud_filtered);
   //****************************************************//
 
 
   //****************************************************//
     // Create the filtering object - StatisticalOutlierRemoval filter
-    pcl::StatisticalOutlierRemoval<PointT> sor;
-    sor.setInputCloud (cloud_filtered);
-    sor.setMeanK (50);
-    sor.setStddevMulThresh (1.0);
-    sor.filter (*cloud_filtered);
+    //pcl::StatisticalOutlierRemoval<PointT> sor;
+    //sor.setInputCloud (cloud_filtered);
+    //sor.setMeanK (50);
+    //sor.setStddevMulThresh (1.0);
+    //sor.filter (*cloud_filtered);
     //std::cout<<"Succed Statistics"<<std::endl;
 
   //****************************************************//
@@ -162,19 +186,21 @@ void Processor::pcl_callback(const sensor_msgs::PointCloud2 &cloud_raw)
 
 
 
-
+  //static tf::
 
   ros::Time now = ros::Time::now();
+
+  tf_broadcast.sendTransform (tf::StampedTransform (model_tf,now,robot_base_frame,model_frame));
 
   tf::FrameGraphRequest frame_req;
 
   tf::FrameGraphResponse frame_res;
 
-
+  base_frame = cloud_raw.header.frame_id;
   try
   {
     //std::cout<<"try wait for Tranform"<<std::endl;
-    tf_listener.waitForTransform (target_frame, cloud_raw.header.frame_id , now , ros::Duration(3.0));
+    tf_listener.waitForTransform (base_frame , model_frame , now , ros::Duration(3.0));
   }
   catch (...)
   {
@@ -185,39 +211,46 @@ void Processor::pcl_callback(const sensor_msgs::PointCloud2 &cloud_raw)
 
   std::string err_string;
 
+  //CHANGES THE Frame from base_frame to target_frame
+  int commontime = tf_listener.getLatestCommonTime (target_frame ,base_frame,tm,&err_string);
 
-  int commontime = tf_listener.getLatestCommonTime (cloud_raw.header.frame_id ,target_frame,tm,&err_string);
-  tf_listener.lookupTransform ( "/camera_link" ,cloud_raw.header.frame_id  , ros::Time(commontime), tf_trans);
-  pcl::fromROSMsg(cloud_raw, *cloud_ptr);
-  cloud_ptr = cloud_filter(cloud_ptr);
-  pcl::toROSMsg(*cloud_ptr.get(),ros_pcl);
+
+  tf_listener.lookupTransform (target_frame ,base_frame  , ros::Time(commontime), tf_trans_to_flange); //the frame order is revereved
+
   geometry_msgs::TransformStamped geo_trans;
-  tf::transformStampedTFToMsg(tf_trans,geo_trans);
-  tf2::doTransform(ros_pcl,ros_pcl,geo_trans);
-  std::cout<<geo_trans.header.frame_id<<std::endl;
-  tf_listener.lookupTransform ( "/base_link", "/camera_link" , ros::Time(commontime), tf_trans);
-  tf::transformStampedTFToMsg(tf_trans,geo_trans);
-  tf2::doTransform(ros_pcl,ros_pcl,geo_trans);
+  tf::transformStampedTFToMsg(tf_trans_to_flange,geo_trans);
+  tf2::doTransform(cloud_raw,ros_pcl,geo_trans);
 
-  tf_listener.lookupTransform ( "/base_link", "/camera_link" , ros::Time(commontime), tf_trans);
+  //FILTER THE PCL according to the new frame (flange)
+  pcl::fromROSMsg(ros_pcl, *cloud_ptr);
+  cloud_ptr = cloud_filter(cloud_ptr);
+  //cloud_ptr = this->TransformPtCloud(cloud_ptr,tf_trans_to_flange);
+  pcl::toROSMsg(*cloud_ptr.get(),ros_pcl);
 
-  tf::Quaternion rot = tf_trans.getRotation ();
-  //rot = rot.inverse ();
-  tf:: Vector3 vec(0,0,0);
+  //MOVE THE PCL to te model base
+  //tf_listener.lookupTransform ( model_frame, target_frame ,ros::Time(commontime), tf_transe_flange_to_model);
+  //tf::transformStampedTFToMsg(tf_transe_flange_to_model,geo_trans);
+  //tf2::doTransform(ros_pcl,ros_pcl,geo_trans);
+  //
+  //pcl::fromROSMsg(ros_pcl, *cloud_ptr);
+  ////cloud_ptr = this->TransformPtCloud(cloud_ptr,tf_transe_flange_to_model);
+  //pcl::toROSMsg(*cloud_ptr.get(),ros_pcl);
 
 
   //float roll = 0, pitch = 0, yaw = 0;
-  pcl::fromROSMsg(ros_pcl, *cloud_ptr);
+  //pcl::fromROSMsg(ros_pcl, *cloud_ptr);
 
-  Eigen::Quaternion<float> qf;
-  Eigen::Quaternion<double> qd;
-
-  tf::quaternionTFToEigen (rot,qd);
-  qf = qd.cast<float>();
-  Eigen::Vector3f noneVec(0,0,0);
+  //pcl::toROSMsg(*cloud_ptr.get(),ros_pcl);
+  //
+  //Eigen::Quaternion<float> qf;
+  //Eigen::Quaternion<double> qd;
+  //
+  //tf::quaternionTFToEigen (rot,qd);
+  //qf = qd.cast<float>();
+  //Eigen::Vector3f noneVec(0,0,0);
   //qf.inverse();
-  pcl::transformPointCloud(*cloud_ptr, *cloud_ptr,noneVec,qf);
-  pcl::toROSMsg(*cloud_ptr.get(),ros_pcl);
+  //pcl::transformPointCloud(*cloud_ptr, *cloud_ptr,noneVec,qf);
+  //pcl::toROSMsg(*cloud_ptr.get(),ros_pcl);
   ////bring geometry to 0,0,0 in proper orentation to camera frame (the proper vector is the between
   ////the model_base (ee_wrist) and the the camera_rgb_optical_frame
   //pcl::transformPointCloud(*cloud_ptr, *cloud_ptr,noneVec,q);

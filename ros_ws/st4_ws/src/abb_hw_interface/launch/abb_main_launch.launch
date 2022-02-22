@@ -19,12 +19,12 @@
  <!-- CORE  -->
 
   <!-- Load controller settings  -->
-    <rosparam file="$(find abb_HW_interface)/config/abb_controllers.yaml" command="load"/>
+    <rosparam file="$(find abb_hw_interface)/config/abb_controllers.yaml" command="load"/>
 
 
     <!-- Load hardware interface -->
 
-    <node name="abb_hw_main" pkg="abb_HW_interface" type="abb_hw_main" output="screen"/>
+    <node name="abb_hw_main" pkg="abb_hw_interface" type="abb_hw_main" output="screen"/>
 
     <include file="$(find abb_node)/launch/abb_tf.launch">
     <arg name="sim" default="false"/>

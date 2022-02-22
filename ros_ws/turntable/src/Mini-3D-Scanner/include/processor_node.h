@@ -19,6 +19,7 @@
 #include <pcl/filters/extract_indices.h>
 
 #include <tf/transform_listener.h>
+#include <tf/transform_broadcaster.h>
 #include <tf/transform_datatypes.h>
 #include "tf_conversions/tf_eigen.h"
 #include "tf_conversions/tf_kdl.h"
@@ -54,25 +55,38 @@ public:
 
     std::cout<<"Processor Init"<<std::endl;
     tf::TransformListener tf_listener(nh);
+    tf::TransformBroadcaster tf_broadcast();
+    tf::Transform ref_tf;
     pcl::PointCloud<PointT>::Ptr temp (new pcl::PointCloud<PointT>);
     cloud_ptr.swap (temp);
-    sub_registered_cloud= nh.subscribe("/camera/depth_registered/points", 1 ,&Processor::pcl_callback,this);
+    sub_registered_cloud = nh.subscribe("/camera/depth_registered/points", 1 ,&Processor::pcl_callback,this);
     pub_pcl_done = nh.advertise<std_msgs::Int64> ("/pcd_save_done", 1);
     pub_pcl = nh.advertise<sensor_msgs::PointCloud2> ("/pcl_process", 1);
     gotDataFlag = 0;
     pcd_index = 0;
-    base_frame = "camera_rgb_optical_frame";
+    base_frame = ""; //Get it from the ptr_cloud.header
+    robot_base_frame = "base"; //need to broacast the model_frame
     //base_frame = "model_base";
     target_frame = "flange";
+    model_frame  = "model";
     std::cout<<"Processor Init Done"<<std::endl;
     have_ref_frame = false;
     ref_eigen_quat.setIdentity ();
+    tf::Vector3 unitxVec(1,0,0);
+    tf::Quaternion tempQuat;
+    tempQuat = tf::Quaternion::getIdentity ();
+    tempQuat.setEulerZYX (0,-3.14159/2,0);
+
+    model_tf = tf::Transform(tempQuat,unitxVec);
+
+    ros::Time now = ros::Time::now();
+
 
 
   }
   //variables:
     tf::TransformListener tf_listener;
-
+    tf::TransformBroadcaster tf_broadcast;
 private:
 
   char gotDataFlag;// could use a 'class' to reduce this global variable
@@ -81,10 +95,14 @@ private:
   Eigen::Vector3f  ref_eigen_vector;
   geometry_msgs::TransformStamped LastTF;
   std::string pcl_frame = "";
-  tf::StampedTransform tf_trans;
+  tf::StampedTransform tf_trans_to_flange;
   tf::StampedTransform ref_trans;
+  tf::StampedTransform tf_transe_flange_to_model;
+  tf::Transform model_tf;
   std::string base_frame;
   std::string target_frame;
+  std::string model_frame;
+  std::string robot_base_frame;
   ros::Subscriber sub_registered_cloud;
   ros::Subscriber sub_tf;
   ros::Publisher pub_pcl_done;
@@ -100,6 +118,7 @@ private:
   pcl::PointCloud<PointT>::Ptr cloud_filter(pcl::PointCloud<PointT>::Ptr &cloud);
   //pcl::PointCloud<PointT>::Ptr cloud_transform(pcl::PointCloud<PointT>::Ptr &cloud , geometry_msgs::TransformStamped geo_trans);
   pcl::PointCloud<PointT>::Ptr TransformPtCloud (pcl::PointCloud<PointT>::Ptr& source_cloud,tf::StampedTransform& tf_trans);
+  //pcl::PointCloud<PointT>::Ptr TransformPtCloud (sensor_msgs::PointCloud2 &source_cloud,tf::StampedTransform &tf_trans);
 };
 
 

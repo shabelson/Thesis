@@ -1986,6 +1986,7 @@ void RobotController::advertiseServices()
   ROS_INFO("ADVERTISE SERVICES");
   handle_Ping = node->advertiseService("robot_Ping",&RobotController::robot_Ping,this);
   handle_SetCartesian = node->advertiseService("SetCartesian",&RobotController::robot_SetCartesian, this);
+  //handle_SetCartesian_Buffer = node->advertiseService("SetCartesian_Buffer",)
   handle_GetCartesian = node->advertiseService("GetCartesian",&RobotController::robot_GetCartesian, this);
   handle_SetJoints = node->advertiseService("SetJoints",&RobotController::robot_SetJoints, this);
   handle_GetJoints = node->advertiseService("GetJoints",&RobotController::robot_GetJoints, this);
