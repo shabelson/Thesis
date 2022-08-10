@@ -151,7 +151,7 @@ class registerMulti:
         p2l_init_trans_guess = result_icp_p2l.transformation
         print("----------------")
         # print("Colored point cloud registration")
-
+        result_icp = result_icp_p2l
 ################
 #### testing registration
 ################

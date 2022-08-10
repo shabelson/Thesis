@@ -46,9 +46,9 @@ link_directories(${Boost_LIBRARY_DIRS})
 
 
 
-add_executable(pcl_processing
- src/pcl_processing.cpp)
-target_link_libraries(pcl_processing ${catkin_LIBRARIES} ${PCL_LIBRARIES})
+#add_executable(pcl_processing
+# src/pcl_processing.cpp)
+#target_link_libraries(pcl_processing ${catkin_LIBRARIES} ${PCL_LIBRARIES})
 
 
 add_executable(processor
